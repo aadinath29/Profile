@@ -1,0 +1,324 @@
+=== CODEBASE TOKEN SURVEY SUMMARY ===
+
+Total occurrences by keyword:
+  cyan           : 129
+  neon           : 3
+  blue           : 1
+  gold           : 36
+  glow           : 22
+  #00f0ff        : 19
+  #fbbf24        : 7
+  #07090e        : 6
+  #0e131f        : 3
+  #0284c7        : 1
+  #d97706        : 1
+
+Files containing legacy color / glow tokens:
+
+--- src/components/3d/GlobeSphere.jsx (10 occurrences) ---
+  L41 [#00f0ff]: <directionalLight position={[4, 5, 3]} intensity={1.5} color="#00f0ff" />
+  L42 [#fbbf24]: <pointLight position={[-4, -3, -2]} intensity={1.0} color="#fbbf24" />
+  L61 [#00f0ff]: color="#00f0ff"
+  L68 [glow]: {/* India Location Pin & Glowing Beacon */}
+  L73 [#00f0ff]: <meshBasicMaterial color="#00f0ff" />
+  L79 [#00f0ff]: <meshBasicMaterial color="#00f0ff" transparent={true} opacity={0.6} side={THREE.DoubleSide} />
+  L85 [#fbbf24]: <meshBasicMaterial color="#fbbf24" transparent={true} opacity={0.8} />
+  L90 [glow]: {/* Tilted Glowing Orbital Ring */}
+  L94 [#00f0ff]: color="#00f0ff"
+  L95 [#00f0ff]: emissive="#00f0ff"
+
+--- src/components/3d/HeroCanvas.jsx (5 occurrences) ---
+  L36 [cyan]: {/* Primary Key Light: Neon Cyan Accent */}
+  L36 [neon]: {/* Primary Key Light: Neon Cyan Accent */}
+  L37 [#00f0ff]: <directionalLight position={[5, 6, 4]} intensity={1.5} color="#00f0ff" />
+  L38 [gold]: {/* Accent Rim / Fill Light: Warm Gold Accent */}
+  L39 [#fbbf24]: <pointLight position={[-5, -4, -2]} intensity={1.2} color="#fbbf24" />
+
+--- src/components/3d/HeroGeometry.jsx (6 occurrences) ---
+  L44 [#00f0ff]: color="#00f0ff"
+  L52 [glow]: {/* Inner Glowing Core: Solid Icosahedron */}
+  L56 [#07090e]: color="#07090e"
+  L57 [#00f0ff]: emissive="#00f0ff"
+  L64 [gold]: {/* Secondary Accent Ring: Warm Gold Accent */}
+  L68 [#fbbf24]: color="#fbbf24"
+
+--- src/components/3d/ParticleField.jsx (1 occurrences) ---
+  L35 [#00f0ff]: color: new THREE.Color('#00f0ff'),
+
+--- src/components/3d/SceneFallback.jsx (6 occurrences) ---
+  L16 [cyan]: <div className="w-64 h-64 md:w-80 md:h-80 rounded-full border border-accent-cyan/20 bg-accent-cyan/5 animate-pulse-subtle flex items-center justify-center" />
+  L19 [cyan]: <div className="absolute w-44 h-44 md:w-56 md:h-56 rounded-full border border-dashed border-accent-cyan/30 animate-[spin_18s_linear_infinite]" />
+  L22 [cyan]: <div className="absolute w-12 h-12 rounded-full bg-surface/80 border border-border flex items-center justify-center backdrop-blur-sm shadow-glow-cyan">
+  L22 [glow]: <div className="absolute w-12 h-12 rounded-full bg-surface/80 border border-border flex items-center justify-center backdrop-blur-sm shadow-glow-cyan">
+  L23 [cyan]: <span className="text-xs font-mono font-bold text-accent-cyan">
+  L31 [cyan]: <span className="w-1.5 h-1.5 rounded-full bg-accent-cyan animate-ping" />
+
+--- src/components/common/CustomCursor.jsx (5 occurrences) ---
+  L170 [#00f0ff]: borderColor: '#00f0ff',
+  L184 [#00f0ff]: borderColor: '#00f0ff',
+  L208 [#00f0ff]: backgroundColor: '#00f0ff',
+  L234 [cyan]: className="fixed top-0 left-0 w-2 h-2 rounded-full bg-accent-cyan pointer-events-none z-[9999] will-change-transform"
+  L241 [cyan]: className="fixed top-0 left-0 w-9 h-9 rounded-full border border-accent-cyan/50 pointer-events-none z-[9998] flex items-center justify-center will-change-transform"
+
+--- src/components/common/ErrorBoundary.jsx (2 occurrences) ---
+  L33 [gold]: <div className="w-12 h-12 rounded-full bg-accent-gold/10 border border-accent-gold/30 flex items-center justify-center text-accent-gold">
+  L58 [cyan]: className="px-4 py-2 text-xs font-mono tracking-wider uppercase text-accent-cyan border border-accent-cyan/30 rounded-md hover:bg-accent-cyan/10 transition-colors"
+
+--- src/components/common/Preloader.jsx (3 occurrences) ---
+  L112 [cyan]: <span className="text-accent-cyan font-semibold text-sm">{progress}%</span>
+  L118 [cyan]: className="h-full bg-gradient-to-r from-accent-cyan via-accent-cyan to-accent-gold rounded-full transition-all duration-75 ease-out"
+  L118 [gold]: className="h-full bg-gradient-to-r from-accent-cyan via-accent-cyan to-accent-gold rounded-full transition-all duration-75 ease-out"
+
+--- src/components/common/ScrollProgressBar.jsx (2 occurrences) ---
+  L57 [cyan]: className="fixed top-0 left-0 right-0 h-[3px] origin-left z-[9998] pointer-events-none bg-gradient-to-r from-accent-cyan via-accent-cyan to-accent-gold shadow-[0_0_10px_rgba(0,240,255,0.7)] will-change-transform"
+  L57 [gold]: className="fixed top-0 left-0 right-0 h-[3px] origin-left z-[9998] pointer-events-none bg-gradient-to-r from-accent-cyan via-accent-cyan to-accent-gold shadow-[0_0_10px_rgba(0,240,255,0.7)] will-change-transform"
+
+--- src/components/layout/Footer.jsx (10 occurrences) ---
+  L24 [glow]: {/* Subtle top ambient glow line */}
+  L25 [cyan]: <div className="absolute top-0 left-1/4 right-1/4 h-[1px] bg-gradient-to-r from-transparent via-accent-cyan/30 to-transparent" />
+  L33 [cyan]: className="font-serif text-2xl font-bold tracking-tight text-accent-cyan hover:text-accent-gold transition-colors"
+  L33 [gold]: className="font-serif text-2xl font-bold tracking-tight text-accent-cyan hover:text-accent-gold transition-colors"
+  L53 [cyan]: className="group inline-flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-text-muted hover:text-accent-cyan transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan rounded px-2 py-1"
+  L72 [cyan]: className="text-text-secondary hover:text-accent-cyan transition-colors"
+  L91 [cyan]: className="p-2 rounded-lg bg-surface border border-border/50 text-text-secondary hover:text-accent-cyan hover:border-accent-cyan/50 transition-colors"
+  L100 [cyan]: className="p-2 rounded-lg bg-surface border border-border/50 text-text-secondary hover:text-accent-cyan hover:border-accent-cyan/50 transition-colors"
+  L107 [cyan]: className="p-2 rounded-lg bg-surface border border-border/50 text-text-secondary hover:text-accent-cyan hover:border-accent-cyan/50 transition-colors"
+  L123 [gold]: className="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-wider text-accent-gold hover:underline"
+
+--- src/components/layout/Layout.jsx (2 occurrences) ---
+  L71 [cyan]: className="min-h-screen flex flex-col bg-background text-text-primary selection:bg-accent-cyan selection:text-black relative"
+  L76 [cyan]: className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[9999] focus:px-4 focus:py-2 focus:bg-accent-cyan focus:text-black focus:font-semibold focus:rounded focus:outline-none"
+
+--- src/components/layout/MobileMenu.jsx (10 occurrences) ---
+  L110 [cyan]: className="font-serif text-2xl font-bold tracking-tight text-accent-cyan"
+  L123 [cyan]: className="w-11 h-11 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg border border-border/60 text-text-primary hover:text-accent-cyan hover:border-accent-cyan/60 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan"
+  L144 [cyan]: className={`group flex items-baseline justify-between py-3 min-h-[48px] border-b border-border/30 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan rounded ${
+  L146 [cyan]: ? 'text-accent-cyan font-bold'
+  L147 [cyan]: : 'text-text-primary hover:text-accent-cyan'
+  L153 [cyan]: <span className="font-mono text-xs tracking-widest text-text-muted group-hover:text-accent-cyan transition-colors">
+  L180 [cyan]: className="w-10 h-10 flex items-center justify-center rounded-full bg-surface border border-border/50 text-text-secondary hover:text-accent-cyan hover:border-accent-cyan/60 transition-colors"
+  L189 [cyan]: className="w-10 h-10 flex items-center justify-center rounded-full bg-surface border border-border/50 text-text-secondary hover:text-accent-cyan hover:border-accent-cyan/60 transition-colors"
+  L196 [cyan]: className="w-10 h-10 flex items-center justify-center rounded-full bg-surface border border-border/50 text-text-secondary hover:text-accent-cyan hover:border-accent-cyan/60 transition-colors"
+  L206 [gold]: className="inline-flex items-center gap-2 px-4 py-2 text-xs font-mono uppercase tracking-widest font-semibold rounded-full border border-accent-gold/40 text-accent-gold bg-accent-gold/5 hover:bg-accent-gold/15 transition-colors"
+
+--- src/components/layout/Navbar.jsx (12 occurrences) ---
+  L51 [cyan]: className="group flex items-center gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan rounded"
+  L53 [cyan]: <span className="font-serif text-2xl font-bold tracking-tight text-accent-cyan group-hover:text-accent-gold transition-colors duration-300">
+  L53 [gold]: <span className="font-serif text-2xl font-bold tracking-tight text-accent-cyan group-hover:text-accent-gold transition-colors duration-300">
+  L72 [cyan]: className={`group relative py-1 text-sm tracking-wide font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan rounded-sm ${
+  L74 [cyan]: ? 'text-accent-cyan font-semibold'
+  L83 [cyan]: isActive ? 'text-accent-cyan' : ''
+  L91 [cyan]: className="absolute inset-0 block transition-transform duration-300 ease-[cubic-bezier(0.76,0,0.24,1)] translate-y-full group-hover:translate-y-0 text-accent-cyan font-medium"
+  L99 [cyan]: <span className="absolute bottom-0 left-0 right-0 h-[2px] bg-accent-cyan rounded-full" />
+  L101 [cyan]: <span className="absolute bottom-0 left-0 right-0 h-[2px] bg-accent-cyan rounded-full scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out" />
+  L118 [gold]: className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-mono uppercase tracking-wider font-semibold rounded-full border border-accent-gold/40 text-accent-gold hover:bg-accent-gold/10 hover:border-accent-gold transition-all duration-300 hover:shadow-glow-gold focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold"
+  L118 [glow]: className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-mono uppercase tracking-wider font-semibold rounded-full border border-accent-gold/40 text-accent-gold hover:bg-accent-gold/10 hover:border-accent-gold transition-all duration-300 hover:shadow-glow-gold focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold"
+  L131 [cyan]: className="md:hidden w-11 h-11 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg border border-border/60 text-text-primary hover:text-accent-cyan hover:border-accent-cyan/60 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan"
+
+--- src/components/sections/about/AboutHero.jsx (3 occurrences) ---
+  L39 [cyan]: className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20"
+  L41 [cyan]: <Sparkles className="w-3.5 h-3.5 text-accent-cyan animate-pulse-subtle" />
+  L62 [gold]: className="text-lg sm:text-xl text-accent-gold font-sans max-w-2xl"
+
+--- src/components/sections/about/BioNarrative.jsx (6 occurrences) ---
+  L21 [cyan]: <div className="flex items-center gap-2 text-accent-cyan text-sm font-mono font-semibold">
+  L31 [gold]: <div className="flex items-center gap-2 text-accent-gold text-sm font-mono font-semibold">
+  L44 [cyan]: <MapPin className="w-3.5 h-3.5 text-accent-cyan" />
+  L48 [cyan]: <Mail className="w-3.5 h-3.5 text-accent-cyan" />
+  L49 [cyan]: <a href={`mailto:${developer.email}`} className="hover:text-accent-cyan transition-colors">
+  L54 [cyan]: <Phone className="w-3.5 h-3.5 text-accent-cyan" />
+
+--- src/components/sections/about/DepthPortrait.jsx (1 occurrences) ---
+  L87 [cyan]: <span className="text-xs font-mono uppercase tracking-widest text-accent-cyan bg-background/80 backdrop-blur-md px-2.5 py-1 rounded border border-border">
+
+--- src/components/sections/about/ExperienceTimeline.jsx (10 occurrences) ---
+  L93 [cyan]: {/* Animated Luminous Neon Cyan Foreground Path */}
+  L93 [neon]: {/* Animated Luminous Neon Cyan Foreground Path */}
+  L97 [#00f0ff]: stroke="#00f0ff"
+  L121 [cyan]: ? 'border-accent-cyan bg-background shadow-glow-cyan scale-110'
+  L121 [glow]: ? 'border-accent-cyan bg-background shadow-glow-cyan scale-110'
+  L127 [cyan]: isLit ? 'bg-accent-cyan animate-ping' : 'bg-transparent'
+  L133 [cyan]: <div className="p-6 sm:p-8 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm space-y-5 hover:border-accent-cyan/40 transition-colors">
+  L135 [gold]: <span className="text-xs font-mono uppercase tracking-widest text-accent-gold font-semibold flex items-center gap-1.5">
+  L148 [cyan]: <div className="flex items-center gap-1.5 text-accent-cyan text-sm font-medium mt-1">
+  L164 [cyan]: <CheckCircle2 className="w-4 h-4 text-accent-cyan shrink-0 mt-0.5" />
+
+--- src/components/sections/blog/BlogCard.jsx (6 occurrences) ---
+  L18 [cyan]: className="group relative rounded-2xl border border-border bg-surface/50 backdrop-blur-sm p-6 sm:p-8 flex flex-col justify-between hover:border-accent-cyan/40 transition-all duration-300"
+  L24 [cyan]: <Calendar className="w-3.5 h-3.5 text-accent-cyan" />
+  L27 [gold]: <span className="flex items-center gap-1.5 text-accent-gold">
+  L34 [cyan]: <h3 className="text-xl sm:text-2xl font-serif font-bold text-text-primary group-hover:text-accent-cyan transition-colors leading-snug">
+  L48 [cyan]: className="text-[11px] font-mono px-2.5 py-0.5 rounded bg-surface-subtle text-accent-cyan/90 border border-border"
+  L59 [cyan]: <span className="text-accent-cyan font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+
+--- src/components/sections/contact/ContactForm.jsx (6 occurrences) ---
+  L71 [cyan]: <div className="p-5 rounded-xl bg-accent-cyan/10 border border-accent-cyan/30 text-accent-cyan space-y-2">
+  L110 [cyan]: className="w-full min-h-[48px] px-4 py-3 rounded-lg bg-surface-subtle border border-border text-text-primary placeholder:text-text-muted/60 focus:outline-none focus:border-accent-cyan focus:ring-1 focus:ring-accent-cyan/40 transition-all font-sans text-sm"
+  L127 [cyan]: className="w-full min-h-[48px] px-4 py-3 rounded-lg bg-surface-subtle border border-border text-text-primary placeholder:text-text-muted/60 focus:outline-none focus:border-accent-cyan focus:ring-1 focus:ring-accent-cyan/40 transition-all font-sans text-sm"
+  L150 [cyan]: className="w-full px-4 py-3 rounded-lg bg-surface-subtle border border-border text-text-primary placeholder:text-text-muted/60 focus:outline-none focus:border-accent-cyan focus:ring-1 focus:ring-accent-cyan/40 transition-all font-sans text-sm resize-none"
+  L157 [cyan]: className="w-full min-h-[48px] px-6 py-3.5 rounded-lg bg-accent-cyan text-black font-semibold text-sm tracking-wider uppercase flex items-center justify-center gap-2 hover:bg-opacity-90 hover:scale-[1.01] active:scale-[0.99] disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-glow-cyan"
+  L157 [glow]: className="w-full min-h-[48px] px-6 py-3.5 rounded-lg bg-accent-cyan text-black font-semibold text-sm tracking-wider uppercase flex items-center justify-center gap-2 hover:bg-opacity-90 hover:scale-[1.01] active:scale-[0.99] disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-glow-cyan"
+
+--- src/components/sections/contact/ContactInfo.jsx (8 occurrences) ---
+  L22 [cyan]: className="min-h-[48px] p-4 rounded-xl border border-border bg-surface hover:border-accent-cyan transition-colors flex items-center gap-4 group"
+  L24 [cyan]: <div className="w-10 h-10 rounded-lg bg-accent-cyan/10 border border-accent-cyan/20 flex items-center justify-center text-accent-cyan">
+  L29 [cyan]: <span className="text-sm font-sans font-medium text-text-primary group-hover:text-accent-cyan transition-colors">
+  L37 [cyan]: className="min-h-[48px] p-4 rounded-xl border border-border bg-surface hover:border-accent-cyan transition-colors flex items-center gap-4 group"
+  L39 [gold]: <div className="w-10 h-10 rounded-lg bg-accent-gold/10 border border-accent-gold/20 flex items-center justify-center text-accent-gold">
+  L44 [gold]: <span className="text-sm font-sans font-medium text-text-primary group-hover:text-accent-gold transition-colors">
+  L74 [cyan]: className="min-h-[44px] px-4 py-3 rounded-xl border border-border bg-surface hover:border-accent-cyan text-xs font-mono text-text-primary hover:text-accent-cyan transition-all flex items-center justify-between"
+  L87 [cyan]: className="min-h-[44px] px-4 py-3 rounded-xl border border-border bg-surface hover:border-accent-cyan text-xs font-mono text-text-primary hover:text-accent-cyan transition-all flex items-center justify-between"
+
+--- src/components/sections/home/GlobeSection.jsx (6 occurrences) ---
+  L16 [cyan]: <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20">
+  L17 [cyan]: <Compass className="w-3.5 h-3.5 text-accent-cyan animate-spin-slow" />
+  L23 [cyan]: <span className="text-accent-cyan">Engineering for the World.</span>
+  L33 [gold]: <span className="text-sm font-mono font-semibold text-accent-gold">IST (UTC +5:30)</span>
+  L37 [cyan]: <span className="text-sm font-mono font-semibold text-accent-cyan">Open for Roles</span>
+  L52 [cyan]: <MapPin className="w-3.5 h-3.5 text-accent-cyan" />
+
+--- src/components/sections/home/HeroSection.jsx (8 occurrences) ---
+  L64 [cyan]: className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20 backdrop-blur-sm"
+  L66 [cyan]: <Sparkles className="w-3.5 h-3.5 text-accent-cyan animate-pulse-subtle" />
+  L93 [gold]: className="text-xl sm:text-2xl md:text-3xl font-medium text-accent-gold tracking-wide"
+  L123 [cyan]: className="min-h-[48px] px-7 py-3.5 rounded-lg bg-accent-cyan text-black font-semibold text-sm tracking-wide shadow-glow-cyan hover:bg-opacity-90 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 flex items-center gap-2"
+  L123 [glow]: className="min-h-[48px] px-7 py-3.5 rounded-lg bg-accent-cyan text-black font-semibold text-sm tracking-wide shadow-glow-cyan hover:bg-opacity-90 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 flex items-center gap-2"
+  L134 [cyan]: className="min-h-[48px] px-7 py-3.5 rounded-lg border border-border bg-surface/40 hover:border-accent-cyan text-text-primary font-medium text-sm tracking-wide hover:bg-surface/80 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 flex items-center gap-2 backdrop-blur-sm"
+  L137 [cyan]: <span className="text-accent-cyan">&rarr;</span>
+  L152 [cyan]: <ArrowDown className="w-4 h-4 text-accent-cyan animate-bounce" />
+
+--- src/components/sections/home/ProjectsPreview.jsx (12 occurrences) ---
+  L33 [cyan]: className="inline-flex items-center gap-2 text-sm font-mono tracking-wider uppercase text-accent-cyan hover:text-accent-gold transition-colors group self-start md:self-end pb-2"
+  L33 [gold]: className="inline-flex items-center gap-2 text-sm font-mono tracking-wider uppercase text-accent-cyan hover:text-accent-gold transition-colors group self-start md:self-end pb-2"
+  L60 [cyan]: className={`group relative flex flex-col justify-between p-6 sm:p-8 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm transition-all duration-300 hover:border-accent-cyan/50 hover:scale-[1.02] hover:shadow-[0_0_30px_var(--color-accent-glow)] ${
+  L60 [glow]: className={`group relative flex flex-col justify-between p-6 sm:p-8 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm transition-all duration-300 hover:border-accent-cyan/50 hover:scale-[1.02] hover:shadow-[0_0_30px_var(--color-accent-glow)] ${
+  L67 [gold]: <span className="text-xs font-mono uppercase tracking-widest text-accent-gold">
+  L71 [gold]: <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-mono bg-accent-gold/10 text-accent-gold border border-accent-gold/20">
+  L76 [cyan]: <span className="w-2 h-2 rounded-full bg-accent-cyan animate-pulse" />
+  L81 [cyan]: <h3 className="text-2xl font-serif font-bold text-text-primary group-hover:text-accent-cyan transition-colors">
+  L92 [gold]: <div className="p-3 rounded-xl border border-accent-gold/20 bg-accent-gold/5 space-y-1">
+  L93 [gold]: <div className="flex items-center gap-1.5 text-xs font-mono font-semibold text-accent-gold">
+  L115 [cyan]: className="px-2.5 py-1 rounded-md text-xs font-mono bg-surface-subtle/80 text-text-muted border border-border/40 group-hover:border-accent-cyan/20 group-hover:text-text-secondary transition-colors"
+  L140 [cyan]: className="inline-flex items-center gap-2 text-xs font-mono font-semibold uppercase tracking-wider text-accent-cyan hover:underline"
+
+--- src/components/sections/home/SkillsSection.jsx (2 occurrences) ---
+  L31 [cyan]: <div className="flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-surface/60 backdrop-blur-sm shadow-sm hover:border-accent-cyan/50 hover:bg-surface transition-all duration-200 group">
+  L32 [cyan]: <span className="w-2 h-2 rounded-full bg-accent-cyan/70 group-hover:bg-accent-cyan transition-colors" />
+
+--- src/components/sections/home/StatsSection.jsx (5 occurrences) ---
+  L63 [cyan]: className="relative group p-6 sm:p-8 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm overflow-hidden hover:border-accent-cyan/40 transition-all duration-300"
+  L65 [glow]: {/* Background Accent Glow on Card Hover */}
+  L66 [cyan]: <div className="pointer-events-none absolute -inset-px rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-b from-accent-cyan/10 to-transparent -z-10" />
+  L68 [cyan]: <div className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-accent-cyan tracking-tight">
+  L70 [gold]: <span className="text-accent-gold ml-0.5">{stat.suffix}</span>
+
+--- src/components/sections/home/TestimonialsSection.jsx (4 occurrences) ---
+  L11 [cyan]: className="w-[320px] sm:w-[380px] max-w-[85vw] p-6 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm shadow-sm hover:border-accent-cyan/40 transition-all duration-300 flex flex-col justify-between space-y-4"
+  L15 [cyan]: <div className="flex items-center justify-between text-accent-cyan">
+  L30 [cyan]: <div className="w-8 h-8 rounded-full bg-accent-cyan/10 border border-accent-cyan/20 flex items-center justify-center text-accent-cyan shrink-0">
+  L40 [gold]: <div className="text-[11px] font-mono text-accent-gold flex items-center gap-1 truncate">
+
+--- src/components/sections/projects/ProjectCard.jsx (13 occurrences) ---
+  L19 [cyan]: className={`relative group rounded-2xl border border-border bg-surface/50 backdrop-blur-sm p-6 sm:p-8 flex flex-col justify-between overflow-hidden hover:border-accent-cyan/40 transition-all duration-300 ${
+  L20 [cyan]: project.gradient || 'from-cyan-500/10 to-transparent'
+  L23 [glow]: {/* Background Accent Gradient Glow */}
+  L24 [cyan]: <div className="pointer-events-none absolute -inset-px rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-accent-cyan/15 via-transparent to-transparent -z-10" />
+  L30 [cyan]: <h3 className="text-2xl sm:text-3xl font-serif font-bold text-text-primary group-hover:text-accent-cyan transition-colors">
+  L33 [cyan]: <p className="text-xs font-mono uppercase tracking-widest text-accent-cyan mt-1">
+  L39 [gold]: <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono font-medium text-accent-gold bg-accent-gold/10 border border-accent-gold/20">
+  L44 [cyan]: <span className="px-3 py-1 rounded-full text-xs font-mono font-medium text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20">
+  L60 [cyan]: <CheckCircle2 className="w-3.5 h-3.5 text-accent-cyan shrink-0 mt-0.5" />
+  L69 [gold]: <div className="p-4 rounded-xl border border-accent-gold/30 bg-accent-gold/5 space-y-2">
+  L70 [gold]: <div className="flex items-center gap-1.5 text-xs font-mono text-accent-gold font-semibold uppercase tracking-wider">
+  L110 [cyan]: className="min-h-[44px] px-5 py-2.5 rounded-lg bg-accent-cyan text-black font-semibold text-xs tracking-wider uppercase inline-flex items-center gap-2 hover:bg-opacity-90 hover:scale-[1.02] active:scale-[0.98] transition-all"
+  L127 [cyan]: className="min-h-[44px] px-4 py-2.5 rounded-lg border border-border bg-surface text-text-primary font-medium text-xs tracking-wider uppercase inline-flex items-center gap-2 hover:border-accent-cyan hover:text-accent-cyan transition-all"
+
+--- src/components/sections/projects/ProjectsGrid.jsx (2 occurrences) ---
+  L30 [cyan]: ? 'bg-accent-cyan text-black font-semibold shadow-glow-cyan'
+  L30 [glow]: ? 'bg-accent-cyan text-black font-semibold shadow-glow-cyan'
+
+--- src/components/ui/BentoCard.jsx (5 occurrences) ---
+  L20 [cyan]: className={`relative group p-6 sm:p-8 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm overflow-hidden transition-all duration-300 hover:border-accent-cyan/40 hover:shadow-[0_0_25px_var(--color-accent-glow)] ${colSpan} ${className}`}
+  L20 [glow]: className={`relative group p-6 sm:p-8 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm overflow-hidden transition-all duration-300 hover:border-accent-cyan/40 hover:shadow-[0_0_25px_var(--color-accent-glow)] ${colSpan} ${className}`}
+  L24 [cyan]: <h3 className="text-xl sm:text-2xl font-serif font-bold text-text-primary group-hover:text-accent-cyan transition-colors">
+  L69 [cyan]: ? 'bg-accent-cyan shadow-[0_0_10px_rgba(0,240,255,0.4)]'
+  L70 [gold]: : 'bg-accent-gold/80'
+
+--- src/components/ui/SectionHeading.jsx (2 occurrences) ---
+  L20 [cyan]: className={`inline-flex items-center gap-2 px-3 py-1 text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 rounded-full border border-accent-cyan/20 ${
+  L24 [cyan]: <span className="w-1.5 h-1.5 rounded-full bg-accent-cyan animate-pulse" />
+
+--- src/components/ui/ThemeToggle.jsx (4 occurrences) ---
+  L24 [cyan]: className={`relative inline-flex items-center justify-center w-11 h-11 min-w-[44px] min-h-[44px] rounded-full border border-border bg-surface/60 hover:bg-surface text-text-secondary hover:text-text-primary backdrop-blur-sm transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan/50 hover:border-accent-cyan/40 hover:shadow-glow-cyan dark:hover:shadow-glow-cyan ${className}`}
+  L24 [glow]: className={`relative inline-flex items-center justify-center w-11 h-11 min-w-[44px] min-h-[44px] rounded-full border border-border bg-surface/60 hover:bg-surface text-text-secondary hover:text-text-primary backdrop-blur-sm transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan/50 hover:border-accent-cyan/40 hover:shadow-glow-cyan dark:hover:shadow-glow-cyan ${className}`}
+  L30 [gold]: className="flex items-center justify-center text-accent-gold"
+  L41 [cyan]: className="flex items-center justify-center text-accent-cyan"
+
+--- src/context/ThemeContext.jsx (1 occurrences) ---
+  L39 [#07090e]: meta.setAttribute('content', theme === 'dark' ? '#07090e' : '#f8fafc');
+
+--- src/data/projects.js (4 occurrences) ---
+  L17 [cyan]: gradient: "from-cyan-500/20 via-blue-500/10 to-transparent",
+  L17 [blue]: gradient: "from-cyan-500/20 via-blue-500/10 to-transparent",
+  L18 [#00f0ff]: accentColor: "#00f0ff",
+  L41 [#fbbf24]: accentColor: "#fbbf24",
+
+--- src/pages/BlogPage.jsx (6 occurrences) ---
+  L32 [cyan]: <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20">
+  L33 [cyan]: <BookOpen className="w-3.5 h-3.5 text-accent-cyan" />
+  L56 [cyan]: ? 'bg-accent-cyan text-black font-semibold shadow-glow-cyan'
+  L56 [glow]: ? 'bg-accent-cyan text-black font-semibold shadow-glow-cyan'
+  L73 [cyan]: className="w-full pl-10 pr-4 py-2 rounded-full text-xs font-mono bg-surface border border-border text-text-primary placeholder:text-text-muted focus:outline-none focus:border-accent-cyan transition-colors"
+  L93 [cyan]: className="text-xs font-mono text-accent-cyan underline hover:text-white"
+
+--- src/pages/ContactPage.jsx (2 occurrences) ---
+  L11 [cyan]: <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20">
+  L12 [cyan]: <Mail className="w-3.5 h-3.5 text-accent-cyan" />
+
+--- src/pages/NotFoundPage.jsx (2 occurrences) ---
+  L7 [cyan]: <div className="text-8xl font-serif font-bold text-accent-cyan">404</div>
+  L14 [cyan]: className="px-6 py-3 rounded bg-accent-cyan text-black font-semibold hover:bg-opacity-90 transition-all"
+
+--- src/pages/ProjectsPage.jsx (3 occurrences) ---
+  L14 [cyan]: <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20">
+  L15 [cyan]: <Layers className="w-3.5 h-3.5 text-accent-cyan" />
+  L18 [gold]: <span className="text-accent-gold">{shippedCount} Shipped / {upcomingCount} Upcoming</span>
+
+--- src/styles/index.css (15 occurrences) ---
+  L18 [cyan]: --color-accent-cyan: #0284c7;
+  L18 [#0284c7]: --color-accent-cyan: #0284c7;
+  L19 [gold]: --color-accent-gold: #d97706;
+  L19 [#d97706]: --color-accent-gold: #d97706;
+  L20 [glow]: --color-accent-glow: rgba(2, 132, 199, 0.25);
+  L25 [#07090e]: --color-bg: #07090e;
+  L26 [#0e131f]: --color-surface: #0e131f;
+  L28 [#0e131f]: --color-surface-card: #0e131f;
+  L34 [cyan]: --color-accent-cyan: #00f0ff;
+  L34 [#00f0ff]: --color-accent-cyan: #00f0ff;
+  L35 [gold]: --color-accent-gold: #fbbf24;
+  L35 [#fbbf24]: --color-accent-gold: #fbbf24;
+  L36 [glow]: --color-accent-glow: rgba(0, 240, 255, 0.35);
+  L57 [#00f0ff]: background-color: #00f0ff;
+  L61 [#00f0ff]: background-color: #00f0ff;
+
+--- index.html (3 occurrences) ---
+  L6 [#07090e]: <meta name="theme-color" content="#07090e" id="theme-color-meta" />
+  L31 [#07090e]: if (meta) meta.setAttribute('content', '#07090e');
+  L42 [cyan]: <body class="bg-background text-text-primary antialiased selection:bg-accent-cyan selection:text-black">
+
+--- tailwind.config.js (15 occurrences) ---
+  L41 [cyan]: cyan: withOpacity('--color-accent-cyan'),
+  L42 [gold]: gold: withOpacity('--color-accent-gold'),
+  L43 [glow]: glow: 'var(--color-accent-glow)',
+  L46 [#07090e]: darkPrimary: '#07090e',
+  L47 [#0e131f]: darkNavy: '#0e131f',
+  L48 [cyan]: neonCyan: '#00f0ff',
+  L48 [neon]: neonCyan: '#00f0ff',
+  L48 [#00f0ff]: neonCyan: '#00f0ff',
+  L49 [gold]: warmGold: '#fbbf24',
+  L49 [#fbbf24]: warmGold: '#fbbf24',
+  L64 [cyan]: 'glow-cyan': '0 0 20px rgba(0, 240, 255, 0.35)',
+  L64 [glow]: 'glow-cyan': '0 0 20px rgba(0, 240, 255, 0.35)',
+  L65 [gold]: 'glow-gold': '0 0 20px rgba(251, 191, 36, 0.35)',
+  L65 [glow]: 'glow-gold': '0 0 20px rgba(251, 191, 36, 0.35)',
+  L66 [glow]: 'glow-card': '0 8px 32px 0 rgba(0, 0, 0, 0.37)',

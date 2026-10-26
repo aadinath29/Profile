@@ -1,0 +1,2401 @@
+{
+  "byKeyword": {
+    "cyan": [
+      {
+        "file": "src/components/3d/HeroCanvas.jsx",
+        "line": 36,
+        "content": "{/* Primary Key Light: Neon Cyan Accent */}"
+      },
+      {
+        "file": "src/components/3d/SceneFallback.jsx",
+        "line": 16,
+        "content": "<div className=\"w-64 h-64 md:w-80 md:h-80 rounded-full border border-accent-cyan/20 bg-accent-cyan/5 animate-pulse-subtle flex items-center justify-center\" />"
+      },
+      {
+        "file": "src/components/3d/SceneFallback.jsx",
+        "line": 19,
+        "content": "<div className=\"absolute w-44 h-44 md:w-56 md:h-56 rounded-full border border-dashed border-accent-cyan/30 animate-[spin_18s_linear_infinite]\" />"
+      },
+      {
+        "file": "src/components/3d/SceneFallback.jsx",
+        "line": 22,
+        "content": "<div className=\"absolute w-12 h-12 rounded-full bg-surface/80 border border-border flex items-center justify-center backdrop-blur-sm shadow-glow-cyan\">"
+      },
+      {
+        "file": "src/components/3d/SceneFallback.jsx",
+        "line": 23,
+        "content": "<span className=\"text-xs font-mono font-bold text-accent-cyan\">"
+      },
+      {
+        "file": "src/components/3d/SceneFallback.jsx",
+        "line": 31,
+        "content": "<span className=\"w-1.5 h-1.5 rounded-full bg-accent-cyan animate-ping\" />"
+      },
+      {
+        "file": "src/components/common/CustomCursor.jsx",
+        "line": 234,
+        "content": "className=\"fixed top-0 left-0 w-2 h-2 rounded-full bg-accent-cyan pointer-events-none z-[9999] will-change-transform\""
+      },
+      {
+        "file": "src/components/common/CustomCursor.jsx",
+        "line": 241,
+        "content": "className=\"fixed top-0 left-0 w-9 h-9 rounded-full border border-accent-cyan/50 pointer-events-none z-[9998] flex items-center justify-center will-change-transform\""
+      },
+      {
+        "file": "src/components/common/ErrorBoundary.jsx",
+        "line": 58,
+        "content": "className=\"px-4 py-2 text-xs font-mono tracking-wider uppercase text-accent-cyan border border-accent-cyan/30 rounded-md hover:bg-accent-cyan/10 transition-colors\""
+      },
+      {
+        "file": "src/components/common/Preloader.jsx",
+        "line": 112,
+        "content": "<span className=\"text-accent-cyan font-semibold text-sm\">{progress}%</span>"
+      },
+      {
+        "file": "src/components/common/Preloader.jsx",
+        "line": 118,
+        "content": "className=\"h-full bg-gradient-to-r from-accent-cyan via-accent-cyan to-accent-gold rounded-full transition-all duration-75 ease-out\""
+      },
+      {
+        "file": "src/components/common/ScrollProgressBar.jsx",
+        "line": 57,
+        "content": "className=\"fixed top-0 left-0 right-0 h-[3px] origin-left z-[9998] pointer-events-none bg-gradient-to-r from-accent-cyan via-accent-cyan to-accent-gold shadow-[0_0_10px_rgba(0,240,255,0.7)] will-change-transform\""
+      },
+      {
+        "file": "src/components/layout/Footer.jsx",
+        "line": 25,
+        "content": "<div className=\"absolute top-0 left-1/4 right-1/4 h-[1px] bg-gradient-to-r from-transparent via-accent-cyan/30 to-transparent\" />"
+      },
+      {
+        "file": "src/components/layout/Footer.jsx",
+        "line": 33,
+        "content": "className=\"font-serif text-2xl font-bold tracking-tight text-accent-cyan hover:text-accent-gold transition-colors\""
+      },
+      {
+        "file": "src/components/layout/Footer.jsx",
+        "line": 53,
+        "content": "className=\"group inline-flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-text-muted hover:text-accent-cyan transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan rounded px-2 py-1\""
+      },
+      {
+        "file": "src/components/layout/Footer.jsx",
+        "line": 72,
+        "content": "className=\"text-text-secondary hover:text-accent-cyan transition-colors\""
+      },
+      {
+        "file": "src/components/layout/Footer.jsx",
+        "line": 91,
+        "content": "className=\"p-2 rounded-lg bg-surface border border-border/50 text-text-secondary hover:text-accent-cyan hover:border-accent-cyan/50 transition-colors\""
+      },
+      {
+        "file": "src/components/layout/Footer.jsx",
+        "line": 100,
+        "content": "className=\"p-2 rounded-lg bg-surface border border-border/50 text-text-secondary hover:text-accent-cyan hover:border-accent-cyan/50 transition-colors\""
+      },
+      {
+        "file": "src/components/layout/Footer.jsx",
+        "line": 107,
+        "content": "className=\"p-2 rounded-lg bg-surface border border-border/50 text-text-secondary hover:text-accent-cyan hover:border-accent-cyan/50 transition-colors\""
+      },
+      {
+        "file": "src/components/layout/Layout.jsx",
+        "line": 71,
+        "content": "className=\"min-h-screen flex flex-col bg-background text-text-primary selection:bg-accent-cyan selection:text-black relative\""
+      },
+      {
+        "file": "src/components/layout/Layout.jsx",
+        "line": 76,
+        "content": "className=\"sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[9999] focus:px-4 focus:py-2 focus:bg-accent-cyan focus:text-black focus:font-semibold focus:rounded focus:outline-none\""
+      },
+      {
+        "file": "src/components/layout/MobileMenu.jsx",
+        "line": 110,
+        "content": "className=\"font-serif text-2xl font-bold tracking-tight text-accent-cyan\""
+      },
+      {
+        "file": "src/components/layout/MobileMenu.jsx",
+        "line": 123,
+        "content": "className=\"w-11 h-11 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg border border-border/60 text-text-primary hover:text-accent-cyan hover:border-accent-cyan/60 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan\""
+      },
+      {
+        "file": "src/components/layout/MobileMenu.jsx",
+        "line": 144,
+        "content": "className={`group flex items-baseline justify-between py-3 min-h-[48px] border-b border-border/30 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan rounded ${"
+      },
+      {
+        "file": "src/components/layout/MobileMenu.jsx",
+        "line": 146,
+        "content": "? 'text-accent-cyan font-bold'"
+      },
+      {
+        "file": "src/components/layout/MobileMenu.jsx",
+        "line": 147,
+        "content": ": 'text-text-primary hover:text-accent-cyan'"
+      },
+      {
+        "file": "src/components/layout/MobileMenu.jsx",
+        "line": 153,
+        "content": "<span className=\"font-mono text-xs tracking-widest text-text-muted group-hover:text-accent-cyan transition-colors\">"
+      },
+      {
+        "file": "src/components/layout/MobileMenu.jsx",
+        "line": 180,
+        "content": "className=\"w-10 h-10 flex items-center justify-center rounded-full bg-surface border border-border/50 text-text-secondary hover:text-accent-cyan hover:border-accent-cyan/60 transition-colors\""
+      },
+      {
+        "file": "src/components/layout/MobileMenu.jsx",
+        "line": 189,
+        "content": "className=\"w-10 h-10 flex items-center justify-center rounded-full bg-surface border border-border/50 text-text-secondary hover:text-accent-cyan hover:border-accent-cyan/60 transition-colors\""
+      },
+      {
+        "file": "src/components/layout/MobileMenu.jsx",
+        "line": 196,
+        "content": "className=\"w-10 h-10 flex items-center justify-center rounded-full bg-surface border border-border/50 text-text-secondary hover:text-accent-cyan hover:border-accent-cyan/60 transition-colors\""
+      },
+      {
+        "file": "src/components/layout/Navbar.jsx",
+        "line": 51,
+        "content": "className=\"group flex items-center gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan rounded\""
+      },
+      {
+        "file": "src/components/layout/Navbar.jsx",
+        "line": 53,
+        "content": "<span className=\"font-serif text-2xl font-bold tracking-tight text-accent-cyan group-hover:text-accent-gold transition-colors duration-300\">"
+      },
+      {
+        "file": "src/components/layout/Navbar.jsx",
+        "line": 72,
+        "content": "className={`group relative py-1 text-sm tracking-wide font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan rounded-sm ${"
+      },
+      {
+        "file": "src/components/layout/Navbar.jsx",
+        "line": 74,
+        "content": "? 'text-accent-cyan font-semibold'"
+      },
+      {
+        "file": "src/components/layout/Navbar.jsx",
+        "line": 83,
+        "content": "isActive ? 'text-accent-cyan' : ''"
+      },
+      {
+        "file": "src/components/layout/Navbar.jsx",
+        "line": 91,
+        "content": "className=\"absolute inset-0 block transition-transform duration-300 ease-[cubic-bezier(0.76,0,0.24,1)] translate-y-full group-hover:translate-y-0 text-accent-cyan font-medium\""
+      },
+      {
+        "file": "src/components/layout/Navbar.jsx",
+        "line": 99,
+        "content": "<span className=\"absolute bottom-0 left-0 right-0 h-[2px] bg-accent-cyan rounded-full\" />"
+      },
+      {
+        "file": "src/components/layout/Navbar.jsx",
+        "line": 101,
+        "content": "<span className=\"absolute bottom-0 left-0 right-0 h-[2px] bg-accent-cyan rounded-full scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out\" />"
+      },
+      {
+        "file": "src/components/layout/Navbar.jsx",
+        "line": 131,
+        "content": "className=\"md:hidden w-11 h-11 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg border border-border/60 text-text-primary hover:text-accent-cyan hover:border-accent-cyan/60 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan\""
+      },
+      {
+        "file": "src/components/sections/about/AboutHero.jsx",
+        "line": 39,
+        "content": "className=\"inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20\""
+      },
+      {
+        "file": "src/components/sections/about/AboutHero.jsx",
+        "line": 41,
+        "content": "<Sparkles className=\"w-3.5 h-3.5 text-accent-cyan animate-pulse-subtle\" />"
+      },
+      {
+        "file": "src/components/sections/about/BioNarrative.jsx",
+        "line": 21,
+        "content": "<div className=\"flex items-center gap-2 text-accent-cyan text-sm font-mono font-semibold\">"
+      },
+      {
+        "file": "src/components/sections/about/BioNarrative.jsx",
+        "line": 44,
+        "content": "<MapPin className=\"w-3.5 h-3.5 text-accent-cyan\" />"
+      },
+      {
+        "file": "src/components/sections/about/BioNarrative.jsx",
+        "line": 48,
+        "content": "<Mail className=\"w-3.5 h-3.5 text-accent-cyan\" />"
+      },
+      {
+        "file": "src/components/sections/about/BioNarrative.jsx",
+        "line": 49,
+        "content": "<a href={`mailto:${developer.email}`} className=\"hover:text-accent-cyan transition-colors\">"
+      },
+      {
+        "file": "src/components/sections/about/BioNarrative.jsx",
+        "line": 54,
+        "content": "<Phone className=\"w-3.5 h-3.5 text-accent-cyan\" />"
+      },
+      {
+        "file": "src/components/sections/about/DepthPortrait.jsx",
+        "line": 87,
+        "content": "<span className=\"text-xs font-mono uppercase tracking-widest text-accent-cyan bg-background/80 backdrop-blur-md px-2.5 py-1 rounded border border-border\">"
+      },
+      {
+        "file": "src/components/sections/about/ExperienceTimeline.jsx",
+        "line": 93,
+        "content": "{/* Animated Luminous Neon Cyan Foreground Path */}"
+      },
+      {
+        "file": "src/components/sections/about/ExperienceTimeline.jsx",
+        "line": 121,
+        "content": "? 'border-accent-cyan bg-background shadow-glow-cyan scale-110'"
+      },
+      {
+        "file": "src/components/sections/about/ExperienceTimeline.jsx",
+        "line": 127,
+        "content": "isLit ? 'bg-accent-cyan animate-ping' : 'bg-transparent'"
+      },
+      {
+        "file": "src/components/sections/about/ExperienceTimeline.jsx",
+        "line": 133,
+        "content": "<div className=\"p-6 sm:p-8 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm space-y-5 hover:border-accent-cyan/40 transition-colors\">"
+      },
+      {
+        "file": "src/components/sections/about/ExperienceTimeline.jsx",
+        "line": 148,
+        "content": "<div className=\"flex items-center gap-1.5 text-accent-cyan text-sm font-medium mt-1\">"
+      },
+      {
+        "file": "src/components/sections/about/ExperienceTimeline.jsx",
+        "line": 164,
+        "content": "<CheckCircle2 className=\"w-4 h-4 text-accent-cyan shrink-0 mt-0.5\" />"
+      },
+      {
+        "file": "src/components/sections/blog/BlogCard.jsx",
+        "line": 18,
+        "content": "className=\"group relative rounded-2xl border border-border bg-surface/50 backdrop-blur-sm p-6 sm:p-8 flex flex-col justify-between hover:border-accent-cyan/40 transition-all duration-300\""
+      },
+      {
+        "file": "src/components/sections/blog/BlogCard.jsx",
+        "line": 24,
+        "content": "<Calendar className=\"w-3.5 h-3.5 text-accent-cyan\" />"
+      },
+      {
+        "file": "src/components/sections/blog/BlogCard.jsx",
+        "line": 34,
+        "content": "<h3 className=\"text-xl sm:text-2xl font-serif font-bold text-text-primary group-hover:text-accent-cyan transition-colors leading-snug\">"
+      },
+      {
+        "file": "src/components/sections/blog/BlogCard.jsx",
+        "line": 48,
+        "content": "className=\"text-[11px] font-mono px-2.5 py-0.5 rounded bg-surface-subtle text-accent-cyan/90 border border-border\""
+      },
+      {
+        "file": "src/components/sections/blog/BlogCard.jsx",
+        "line": 59,
+        "content": "<span className=\"text-accent-cyan font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform\">"
+      },
+      {
+        "file": "src/components/sections/contact/ContactForm.jsx",
+        "line": 71,
+        "content": "<div className=\"p-5 rounded-xl bg-accent-cyan/10 border border-accent-cyan/30 text-accent-cyan space-y-2\">"
+      },
+      {
+        "file": "src/components/sections/contact/ContactForm.jsx",
+        "line": 110,
+        "content": "className=\"w-full min-h-[48px] px-4 py-3 rounded-lg bg-surface-subtle border border-border text-text-primary placeholder:text-text-muted/60 focus:outline-none focus:border-accent-cyan focus:ring-1 focus:ring-accent-cyan/40 transition-all font-sans text-sm\""
+      },
+      {
+        "file": "src/components/sections/contact/ContactForm.jsx",
+        "line": 127,
+        "content": "className=\"w-full min-h-[48px] px-4 py-3 rounded-lg bg-surface-subtle border border-border text-text-primary placeholder:text-text-muted/60 focus:outline-none focus:border-accent-cyan focus:ring-1 focus:ring-accent-cyan/40 transition-all font-sans text-sm\""
+      },
+      {
+        "file": "src/components/sections/contact/ContactForm.jsx",
+        "line": 150,
+        "content": "className=\"w-full px-4 py-3 rounded-lg bg-surface-subtle border border-border text-text-primary placeholder:text-text-muted/60 focus:outline-none focus:border-accent-cyan focus:ring-1 focus:ring-accent-cyan/40 transition-all font-sans text-sm resize-none\""
+      },
+      {
+        "file": "src/components/sections/contact/ContactForm.jsx",
+        "line": 157,
+        "content": "className=\"w-full min-h-[48px] px-6 py-3.5 rounded-lg bg-accent-cyan text-black font-semibold text-sm tracking-wider uppercase flex items-center justify-center gap-2 hover:bg-opacity-90 hover:scale-[1.01] active:scale-[0.99] disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-glow-cyan\""
+      },
+      {
+        "file": "src/components/sections/contact/ContactInfo.jsx",
+        "line": 22,
+        "content": "className=\"min-h-[48px] p-4 rounded-xl border border-border bg-surface hover:border-accent-cyan transition-colors flex items-center gap-4 group\""
+      },
+      {
+        "file": "src/components/sections/contact/ContactInfo.jsx",
+        "line": 24,
+        "content": "<div className=\"w-10 h-10 rounded-lg bg-accent-cyan/10 border border-accent-cyan/20 flex items-center justify-center text-accent-cyan\">"
+      },
+      {
+        "file": "src/components/sections/contact/ContactInfo.jsx",
+        "line": 29,
+        "content": "<span className=\"text-sm font-sans font-medium text-text-primary group-hover:text-accent-cyan transition-colors\">"
+      },
+      {
+        "file": "src/components/sections/contact/ContactInfo.jsx",
+        "line": 37,
+        "content": "className=\"min-h-[48px] p-4 rounded-xl border border-border bg-surface hover:border-accent-cyan transition-colors flex items-center gap-4 group\""
+      },
+      {
+        "file": "src/components/sections/contact/ContactInfo.jsx",
+        "line": 74,
+        "content": "className=\"min-h-[44px] px-4 py-3 rounded-xl border border-border bg-surface hover:border-accent-cyan text-xs font-mono text-text-primary hover:text-accent-cyan transition-all flex items-center justify-between\""
+      },
+      {
+        "file": "src/components/sections/contact/ContactInfo.jsx",
+        "line": 87,
+        "content": "className=\"min-h-[44px] px-4 py-3 rounded-xl border border-border bg-surface hover:border-accent-cyan text-xs font-mono text-text-primary hover:text-accent-cyan transition-all flex items-center justify-between\""
+      },
+      {
+        "file": "src/components/sections/home/GlobeSection.jsx",
+        "line": 16,
+        "content": "<div className=\"inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20\">"
+      },
+      {
+        "file": "src/components/sections/home/GlobeSection.jsx",
+        "line": 17,
+        "content": "<Compass className=\"w-3.5 h-3.5 text-accent-cyan animate-spin-slow\" />"
+      },
+      {
+        "file": "src/components/sections/home/GlobeSection.jsx",
+        "line": 23,
+        "content": "<span className=\"text-accent-cyan\">Engineering for the World.</span>"
+      },
+      {
+        "file": "src/components/sections/home/GlobeSection.jsx",
+        "line": 37,
+        "content": "<span className=\"text-sm font-mono font-semibold text-accent-cyan\">Open for Roles</span>"
+      },
+      {
+        "file": "src/components/sections/home/GlobeSection.jsx",
+        "line": 52,
+        "content": "<MapPin className=\"w-3.5 h-3.5 text-accent-cyan\" />"
+      },
+      {
+        "file": "src/components/sections/home/HeroSection.jsx",
+        "line": 64,
+        "content": "className=\"inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20 backdrop-blur-sm\""
+      },
+      {
+        "file": "src/components/sections/home/HeroSection.jsx",
+        "line": 66,
+        "content": "<Sparkles className=\"w-3.5 h-3.5 text-accent-cyan animate-pulse-subtle\" />"
+      },
+      {
+        "file": "src/components/sections/home/HeroSection.jsx",
+        "line": 123,
+        "content": "className=\"min-h-[48px] px-7 py-3.5 rounded-lg bg-accent-cyan text-black font-semibold text-sm tracking-wide shadow-glow-cyan hover:bg-opacity-90 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 flex items-center gap-2\""
+      },
+      {
+        "file": "src/components/sections/home/HeroSection.jsx",
+        "line": 134,
+        "content": "className=\"min-h-[48px] px-7 py-3.5 rounded-lg border border-border bg-surface/40 hover:border-accent-cyan text-text-primary font-medium text-sm tracking-wide hover:bg-surface/80 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 flex items-center gap-2 backdrop-blur-sm\""
+      },
+      {
+        "file": "src/components/sections/home/HeroSection.jsx",
+        "line": 137,
+        "content": "<span className=\"text-accent-cyan\">&rarr;</span>"
+      },
+      {
+        "file": "src/components/sections/home/HeroSection.jsx",
+        "line": 152,
+        "content": "<ArrowDown className=\"w-4 h-4 text-accent-cyan animate-bounce\" />"
+      },
+      {
+        "file": "src/components/sections/home/ProjectsPreview.jsx",
+        "line": 33,
+        "content": "className=\"inline-flex items-center gap-2 text-sm font-mono tracking-wider uppercase text-accent-cyan hover:text-accent-gold transition-colors group self-start md:self-end pb-2\""
+      },
+      {
+        "file": "src/components/sections/home/ProjectsPreview.jsx",
+        "line": 60,
+        "content": "className={`group relative flex flex-col justify-between p-6 sm:p-8 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm transition-all duration-300 hover:border-accent-cyan/50 hover:scale-[1.02] hover:shadow-[0_0_30px_var(--color-accent-glow)] ${"
+      },
+      {
+        "file": "src/components/sections/home/ProjectsPreview.jsx",
+        "line": 76,
+        "content": "<span className=\"w-2 h-2 rounded-full bg-accent-cyan animate-pulse\" />"
+      },
+      {
+        "file": "src/components/sections/home/ProjectsPreview.jsx",
+        "line": 81,
+        "content": "<h3 className=\"text-2xl font-serif font-bold text-text-primary group-hover:text-accent-cyan transition-colors\">"
+      },
+      {
+        "file": "src/components/sections/home/ProjectsPreview.jsx",
+        "line": 115,
+        "content": "className=\"px-2.5 py-1 rounded-md text-xs font-mono bg-surface-subtle/80 text-text-muted border border-border/40 group-hover:border-accent-cyan/20 group-hover:text-text-secondary transition-colors\""
+      },
+      {
+        "file": "src/components/sections/home/ProjectsPreview.jsx",
+        "line": 140,
+        "content": "className=\"inline-flex items-center gap-2 text-xs font-mono font-semibold uppercase tracking-wider text-accent-cyan hover:underline\""
+      },
+      {
+        "file": "src/components/sections/home/SkillsSection.jsx",
+        "line": 31,
+        "content": "<div className=\"flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-surface/60 backdrop-blur-sm shadow-sm hover:border-accent-cyan/50 hover:bg-surface transition-all duration-200 group\">"
+      },
+      {
+        "file": "src/components/sections/home/SkillsSection.jsx",
+        "line": 32,
+        "content": "<span className=\"w-2 h-2 rounded-full bg-accent-cyan/70 group-hover:bg-accent-cyan transition-colors\" />"
+      },
+      {
+        "file": "src/components/sections/home/StatsSection.jsx",
+        "line": 63,
+        "content": "className=\"relative group p-6 sm:p-8 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm overflow-hidden hover:border-accent-cyan/40 transition-all duration-300\""
+      },
+      {
+        "file": "src/components/sections/home/StatsSection.jsx",
+        "line": 66,
+        "content": "<div className=\"pointer-events-none absolute -inset-px rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-b from-accent-cyan/10 to-transparent -z-10\" />"
+      },
+      {
+        "file": "src/components/sections/home/StatsSection.jsx",
+        "line": 68,
+        "content": "<div className=\"text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-accent-cyan tracking-tight\">"
+      },
+      {
+        "file": "src/components/sections/home/TestimonialsSection.jsx",
+        "line": 11,
+        "content": "className=\"w-[320px] sm:w-[380px] max-w-[85vw] p-6 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm shadow-sm hover:border-accent-cyan/40 transition-all duration-300 flex flex-col justify-between space-y-4\""
+      },
+      {
+        "file": "src/components/sections/home/TestimonialsSection.jsx",
+        "line": 15,
+        "content": "<div className=\"flex items-center justify-between text-accent-cyan\">"
+      },
+      {
+        "file": "src/components/sections/home/TestimonialsSection.jsx",
+        "line": 30,
+        "content": "<div className=\"w-8 h-8 rounded-full bg-accent-cyan/10 border border-accent-cyan/20 flex items-center justify-center text-accent-cyan shrink-0\">"
+      },
+      {
+        "file": "src/components/sections/projects/ProjectCard.jsx",
+        "line": 19,
+        "content": "className={`relative group rounded-2xl border border-border bg-surface/50 backdrop-blur-sm p-6 sm:p-8 flex flex-col justify-between overflow-hidden hover:border-accent-cyan/40 transition-all duration-300 ${"
+      },
+      {
+        "file": "src/components/sections/projects/ProjectCard.jsx",
+        "line": 20,
+        "content": "project.gradient || 'from-cyan-500/10 to-transparent'"
+      },
+      {
+        "file": "src/components/sections/projects/ProjectCard.jsx",
+        "line": 24,
+        "content": "<div className=\"pointer-events-none absolute -inset-px rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-accent-cyan/15 via-transparent to-transparent -z-10\" />"
+      },
+      {
+        "file": "src/components/sections/projects/ProjectCard.jsx",
+        "line": 30,
+        "content": "<h3 className=\"text-2xl sm:text-3xl font-serif font-bold text-text-primary group-hover:text-accent-cyan transition-colors\">"
+      },
+      {
+        "file": "src/components/sections/projects/ProjectCard.jsx",
+        "line": 33,
+        "content": "<p className=\"text-xs font-mono uppercase tracking-widest text-accent-cyan mt-1\">"
+      },
+      {
+        "file": "src/components/sections/projects/ProjectCard.jsx",
+        "line": 44,
+        "content": "<span className=\"px-3 py-1 rounded-full text-xs font-mono font-medium text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20\">"
+      },
+      {
+        "file": "src/components/sections/projects/ProjectCard.jsx",
+        "line": 60,
+        "content": "<CheckCircle2 className=\"w-3.5 h-3.5 text-accent-cyan shrink-0 mt-0.5\" />"
+      },
+      {
+        "file": "src/components/sections/projects/ProjectCard.jsx",
+        "line": 110,
+        "content": "className=\"min-h-[44px] px-5 py-2.5 rounded-lg bg-accent-cyan text-black font-semibold text-xs tracking-wider uppercase inline-flex items-center gap-2 hover:bg-opacity-90 hover:scale-[1.02] active:scale-[0.98] transition-all\""
+      },
+      {
+        "file": "src/components/sections/projects/ProjectCard.jsx",
+        "line": 127,
+        "content": "className=\"min-h-[44px] px-4 py-2.5 rounded-lg border border-border bg-surface text-text-primary font-medium text-xs tracking-wider uppercase inline-flex items-center gap-2 hover:border-accent-cyan hover:text-accent-cyan transition-all\""
+      },
+      {
+        "file": "src/components/sections/projects/ProjectsGrid.jsx",
+        "line": 30,
+        "content": "? 'bg-accent-cyan text-black font-semibold shadow-glow-cyan'"
+      },
+      {
+        "file": "src/components/ui/BentoCard.jsx",
+        "line": 20,
+        "content": "className={`relative group p-6 sm:p-8 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm overflow-hidden transition-all duration-300 hover:border-accent-cyan/40 hover:shadow-[0_0_25px_var(--color-accent-glow)] ${colSpan} ${className}`}"
+      },
+      {
+        "file": "src/components/ui/BentoCard.jsx",
+        "line": 24,
+        "content": "<h3 className=\"text-xl sm:text-2xl font-serif font-bold text-text-primary group-hover:text-accent-cyan transition-colors\">"
+      },
+      {
+        "file": "src/components/ui/BentoCard.jsx",
+        "line": 69,
+        "content": "? 'bg-accent-cyan shadow-[0_0_10px_rgba(0,240,255,0.4)]'"
+      },
+      {
+        "file": "src/components/ui/SectionHeading.jsx",
+        "line": 20,
+        "content": "className={`inline-flex items-center gap-2 px-3 py-1 text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 rounded-full border border-accent-cyan/20 ${"
+      },
+      {
+        "file": "src/components/ui/SectionHeading.jsx",
+        "line": 24,
+        "content": "<span className=\"w-1.5 h-1.5 rounded-full bg-accent-cyan animate-pulse\" />"
+      },
+      {
+        "file": "src/components/ui/ThemeToggle.jsx",
+        "line": 24,
+        "content": "className={`relative inline-flex items-center justify-center w-11 h-11 min-w-[44px] min-h-[44px] rounded-full border border-border bg-surface/60 hover:bg-surface text-text-secondary hover:text-text-primary backdrop-blur-sm transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan/50 hover:border-accent-cyan/40 hover:shadow-glow-cyan dark:hover:shadow-glow-cyan ${className}`}"
+      },
+      {
+        "file": "src/components/ui/ThemeToggle.jsx",
+        "line": 41,
+        "content": "className=\"flex items-center justify-center text-accent-cyan\""
+      },
+      {
+        "file": "src/data/projects.js",
+        "line": 17,
+        "content": "gradient: \"from-cyan-500/20 via-blue-500/10 to-transparent\","
+      },
+      {
+        "file": "src/pages/BlogPage.jsx",
+        "line": 32,
+        "content": "<div className=\"inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20\">"
+      },
+      {
+        "file": "src/pages/BlogPage.jsx",
+        "line": 33,
+        "content": "<BookOpen className=\"w-3.5 h-3.5 text-accent-cyan\" />"
+      },
+      {
+        "file": "src/pages/BlogPage.jsx",
+        "line": 56,
+        "content": "? 'bg-accent-cyan text-black font-semibold shadow-glow-cyan'"
+      },
+      {
+        "file": "src/pages/BlogPage.jsx",
+        "line": 73,
+        "content": "className=\"w-full pl-10 pr-4 py-2 rounded-full text-xs font-mono bg-surface border border-border text-text-primary placeholder:text-text-muted focus:outline-none focus:border-accent-cyan transition-colors\""
+      },
+      {
+        "file": "src/pages/BlogPage.jsx",
+        "line": 93,
+        "content": "className=\"text-xs font-mono text-accent-cyan underline hover:text-white\""
+      },
+      {
+        "file": "src/pages/ContactPage.jsx",
+        "line": 11,
+        "content": "<div className=\"inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20\">"
+      },
+      {
+        "file": "src/pages/ContactPage.jsx",
+        "line": 12,
+        "content": "<Mail className=\"w-3.5 h-3.5 text-accent-cyan\" />"
+      },
+      {
+        "file": "src/pages/NotFoundPage.jsx",
+        "line": 7,
+        "content": "<div className=\"text-8xl font-serif font-bold text-accent-cyan\">404</div>"
+      },
+      {
+        "file": "src/pages/NotFoundPage.jsx",
+        "line": 14,
+        "content": "className=\"px-6 py-3 rounded bg-accent-cyan text-black font-semibold hover:bg-opacity-90 transition-all\""
+      },
+      {
+        "file": "src/pages/ProjectsPage.jsx",
+        "line": 14,
+        "content": "<div className=\"inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20\">"
+      },
+      {
+        "file": "src/pages/ProjectsPage.jsx",
+        "line": 15,
+        "content": "<Layers className=\"w-3.5 h-3.5 text-accent-cyan\" />"
+      },
+      {
+        "file": "src/styles/index.css",
+        "line": 18,
+        "content": "--color-accent-cyan: #0284c7;"
+      },
+      {
+        "file": "src/styles/index.css",
+        "line": 34,
+        "content": "--color-accent-cyan: #00f0ff;"
+      },
+      {
+        "file": "index.html",
+        "line": 42,
+        "content": "<body class=\"bg-background text-text-primary antialiased selection:bg-accent-cyan selection:text-black\">"
+      },
+      {
+        "file": "tailwind.config.js",
+        "line": 41,
+        "content": "cyan: withOpacity('--color-accent-cyan'),"
+      },
+      {
+        "file": "tailwind.config.js",
+        "line": 48,
+        "content": "neonCyan: '#00f0ff',"
+      },
+      {
+        "file": "tailwind.config.js",
+        "line": 64,
+        "content": "'glow-cyan': '0 0 20px rgba(0, 240, 255, 0.35)',"
+      }
+    ],
+    "neon": [
+      {
+        "file": "src/components/3d/HeroCanvas.jsx",
+        "line": 36,
+        "content": "{/* Primary Key Light: Neon Cyan Accent */}"
+      },
+      {
+        "file": "src/components/sections/about/ExperienceTimeline.jsx",
+        "line": 93,
+        "content": "{/* Animated Luminous Neon Cyan Foreground Path */}"
+      },
+      {
+        "file": "tailwind.config.js",
+        "line": 48,
+        "content": "neonCyan: '#00f0ff',"
+      }
+    ],
+    "blue": [
+      {
+        "file": "src/data/projects.js",
+        "line": 17,
+        "content": "gradient: \"from-cyan-500/20 via-blue-500/10 to-transparent\","
+      }
+    ],
+    "gold": [
+      {
+        "file": "src/components/3d/HeroCanvas.jsx",
+        "line": 38,
+        "content": "{/* Accent Rim / Fill Light: Warm Gold Accent */}"
+      },
+      {
+        "file": "src/components/3d/HeroGeometry.jsx",
+        "line": 64,
+        "content": "{/* Secondary Accent Ring: Warm Gold Accent */}"
+      },
+      {
+        "file": "src/components/common/ErrorBoundary.jsx",
+        "line": 33,
+        "content": "<div className=\"w-12 h-12 rounded-full bg-accent-gold/10 border border-accent-gold/30 flex items-center justify-center text-accent-gold\">"
+      },
+      {
+        "file": "src/components/common/Preloader.jsx",
+        "line": 118,
+        "content": "className=\"h-full bg-gradient-to-r from-accent-cyan via-accent-cyan to-accent-gold rounded-full transition-all duration-75 ease-out\""
+      },
+      {
+        "file": "src/components/common/ScrollProgressBar.jsx",
+        "line": 57,
+        "content": "className=\"fixed top-0 left-0 right-0 h-[3px] origin-left z-[9998] pointer-events-none bg-gradient-to-r from-accent-cyan via-accent-cyan to-accent-gold shadow-[0_0_10px_rgba(0,240,255,0.7)] will-change-transform\""
+      },
+      {
+        "file": "src/components/layout/Footer.jsx",
+        "line": 33,
+        "content": "className=\"font-serif text-2xl font-bold tracking-tight text-accent-cyan hover:text-accent-gold transition-colors\""
+      },
+      {
+        "file": "src/components/layout/Footer.jsx",
+        "line": 123,
+        "content": "className=\"inline-flex items-center gap-2 text-xs font-mono uppercase tracking-wider text-accent-gold hover:underline\""
+      },
+      {
+        "file": "src/components/layout/MobileMenu.jsx",
+        "line": 206,
+        "content": "className=\"inline-flex items-center gap-2 px-4 py-2 text-xs font-mono uppercase tracking-widest font-semibold rounded-full border border-accent-gold/40 text-accent-gold bg-accent-gold/5 hover:bg-accent-gold/15 transition-colors\""
+      },
+      {
+        "file": "src/components/layout/Navbar.jsx",
+        "line": 53,
+        "content": "<span className=\"font-serif text-2xl font-bold tracking-tight text-accent-cyan group-hover:text-accent-gold transition-colors duration-300\">"
+      },
+      {
+        "file": "src/components/layout/Navbar.jsx",
+        "line": 118,
+        "content": "className=\"hidden sm:inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-mono uppercase tracking-wider font-semibold rounded-full border border-accent-gold/40 text-accent-gold hover:bg-accent-gold/10 hover:border-accent-gold transition-all duration-300 hover:shadow-glow-gold focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold\""
+      },
+      {
+        "file": "src/components/sections/about/AboutHero.jsx",
+        "line": 62,
+        "content": "className=\"text-lg sm:text-xl text-accent-gold font-sans max-w-2xl\""
+      },
+      {
+        "file": "src/components/sections/about/BioNarrative.jsx",
+        "line": 31,
+        "content": "<div className=\"flex items-center gap-2 text-accent-gold text-sm font-mono font-semibold\">"
+      },
+      {
+        "file": "src/components/sections/about/ExperienceTimeline.jsx",
+        "line": 135,
+        "content": "<span className=\"text-xs font-mono uppercase tracking-widest text-accent-gold font-semibold flex items-center gap-1.5\">"
+      },
+      {
+        "file": "src/components/sections/blog/BlogCard.jsx",
+        "line": 27,
+        "content": "<span className=\"flex items-center gap-1.5 text-accent-gold\">"
+      },
+      {
+        "file": "src/components/sections/contact/ContactInfo.jsx",
+        "line": 39,
+        "content": "<div className=\"w-10 h-10 rounded-lg bg-accent-gold/10 border border-accent-gold/20 flex items-center justify-center text-accent-gold\">"
+      },
+      {
+        "file": "src/components/sections/contact/ContactInfo.jsx",
+        "line": 44,
+        "content": "<span className=\"text-sm font-sans font-medium text-text-primary group-hover:text-accent-gold transition-colors\">"
+      },
+      {
+        "file": "src/components/sections/home/GlobeSection.jsx",
+        "line": 33,
+        "content": "<span className=\"text-sm font-mono font-semibold text-accent-gold\">IST (UTC +5:30)</span>"
+      },
+      {
+        "file": "src/components/sections/home/HeroSection.jsx",
+        "line": 93,
+        "content": "className=\"text-xl sm:text-2xl md:text-3xl font-medium text-accent-gold tracking-wide\""
+      },
+      {
+        "file": "src/components/sections/home/ProjectsPreview.jsx",
+        "line": 33,
+        "content": "className=\"inline-flex items-center gap-2 text-sm font-mono tracking-wider uppercase text-accent-cyan hover:text-accent-gold transition-colors group self-start md:self-end pb-2\""
+      },
+      {
+        "file": "src/components/sections/home/ProjectsPreview.jsx",
+        "line": 67,
+        "content": "<span className=\"text-xs font-mono uppercase tracking-widest text-accent-gold\">"
+      },
+      {
+        "file": "src/components/sections/home/ProjectsPreview.jsx",
+        "line": 71,
+        "content": "<span className=\"inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-mono bg-accent-gold/10 text-accent-gold border border-accent-gold/20\">"
+      },
+      {
+        "file": "src/components/sections/home/ProjectsPreview.jsx",
+        "line": 92,
+        "content": "<div className=\"p-3 rounded-xl border border-accent-gold/20 bg-accent-gold/5 space-y-1\">"
+      },
+      {
+        "file": "src/components/sections/home/ProjectsPreview.jsx",
+        "line": 93,
+        "content": "<div className=\"flex items-center gap-1.5 text-xs font-mono font-semibold text-accent-gold\">"
+      },
+      {
+        "file": "src/components/sections/home/StatsSection.jsx",
+        "line": 70,
+        "content": "<span className=\"text-accent-gold ml-0.5\">{stat.suffix}</span>"
+      },
+      {
+        "file": "src/components/sections/home/TestimonialsSection.jsx",
+        "line": 40,
+        "content": "<div className=\"text-[11px] font-mono text-accent-gold flex items-center gap-1 truncate\">"
+      },
+      {
+        "file": "src/components/sections/projects/ProjectCard.jsx",
+        "line": 39,
+        "content": "<span className=\"inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono font-medium text-accent-gold bg-accent-gold/10 border border-accent-gold/20\">"
+      },
+      {
+        "file": "src/components/sections/projects/ProjectCard.jsx",
+        "line": 69,
+        "content": "<div className=\"p-4 rounded-xl border border-accent-gold/30 bg-accent-gold/5 space-y-2\">"
+      },
+      {
+        "file": "src/components/sections/projects/ProjectCard.jsx",
+        "line": 70,
+        "content": "<div className=\"flex items-center gap-1.5 text-xs font-mono text-accent-gold font-semibold uppercase tracking-wider\">"
+      },
+      {
+        "file": "src/components/ui/BentoCard.jsx",
+        "line": 70,
+        "content": ": 'bg-accent-gold/80'"
+      },
+      {
+        "file": "src/components/ui/ThemeToggle.jsx",
+        "line": 30,
+        "content": "className=\"flex items-center justify-center text-accent-gold\""
+      },
+      {
+        "file": "src/pages/ProjectsPage.jsx",
+        "line": 18,
+        "content": "<span className=\"text-accent-gold\">{shippedCount} Shipped / {upcomingCount} Upcoming</span>"
+      },
+      {
+        "file": "src/styles/index.css",
+        "line": 19,
+        "content": "--color-accent-gold: #d97706;"
+      },
+      {
+        "file": "src/styles/index.css",
+        "line": 35,
+        "content": "--color-accent-gold: #fbbf24;"
+      },
+      {
+        "file": "tailwind.config.js",
+        "line": 42,
+        "content": "gold: withOpacity('--color-accent-gold'),"
+      },
+      {
+        "file": "tailwind.config.js",
+        "line": 49,
+        "content": "warmGold: '#fbbf24',"
+      },
+      {
+        "file": "tailwind.config.js",
+        "line": 65,
+        "content": "'glow-gold': '0 0 20px rgba(251, 191, 36, 0.35)',"
+      }
+    ],
+    "glow": [
+      {
+        "file": "src/components/3d/GlobeSphere.jsx",
+        "line": 68,
+        "content": "{/* India Location Pin & Glowing Beacon */}"
+      },
+      {
+        "file": "src/components/3d/GlobeSphere.jsx",
+        "line": 90,
+        "content": "{/* Tilted Glowing Orbital Ring */}"
+      },
+      {
+        "file": "src/components/3d/HeroGeometry.jsx",
+        "line": 52,
+        "content": "{/* Inner Glowing Core: Solid Icosahedron */}"
+      },
+      {
+        "file": "src/components/3d/SceneFallback.jsx",
+        "line": 22,
+        "content": "<div className=\"absolute w-12 h-12 rounded-full bg-surface/80 border border-border flex items-center justify-center backdrop-blur-sm shadow-glow-cyan\">"
+      },
+      {
+        "file": "src/components/layout/Footer.jsx",
+        "line": 24,
+        "content": "{/* Subtle top ambient glow line */}"
+      },
+      {
+        "file": "src/components/layout/Navbar.jsx",
+        "line": 118,
+        "content": "className=\"hidden sm:inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-mono uppercase tracking-wider font-semibold rounded-full border border-accent-gold/40 text-accent-gold hover:bg-accent-gold/10 hover:border-accent-gold transition-all duration-300 hover:shadow-glow-gold focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold\""
+      },
+      {
+        "file": "src/components/sections/about/ExperienceTimeline.jsx",
+        "line": 121,
+        "content": "? 'border-accent-cyan bg-background shadow-glow-cyan scale-110'"
+      },
+      {
+        "file": "src/components/sections/contact/ContactForm.jsx",
+        "line": 157,
+        "content": "className=\"w-full min-h-[48px] px-6 py-3.5 rounded-lg bg-accent-cyan text-black font-semibold text-sm tracking-wider uppercase flex items-center justify-center gap-2 hover:bg-opacity-90 hover:scale-[1.01] active:scale-[0.99] disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-glow-cyan\""
+      },
+      {
+        "file": "src/components/sections/home/HeroSection.jsx",
+        "line": 123,
+        "content": "className=\"min-h-[48px] px-7 py-3.5 rounded-lg bg-accent-cyan text-black font-semibold text-sm tracking-wide shadow-glow-cyan hover:bg-opacity-90 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 flex items-center gap-2\""
+      },
+      {
+        "file": "src/components/sections/home/ProjectsPreview.jsx",
+        "line": 60,
+        "content": "className={`group relative flex flex-col justify-between p-6 sm:p-8 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm transition-all duration-300 hover:border-accent-cyan/50 hover:scale-[1.02] hover:shadow-[0_0_30px_var(--color-accent-glow)] ${"
+      },
+      {
+        "file": "src/components/sections/home/StatsSection.jsx",
+        "line": 65,
+        "content": "{/* Background Accent Glow on Card Hover */}"
+      },
+      {
+        "file": "src/components/sections/projects/ProjectCard.jsx",
+        "line": 23,
+        "content": "{/* Background Accent Gradient Glow */}"
+      },
+      {
+        "file": "src/components/sections/projects/ProjectsGrid.jsx",
+        "line": 30,
+        "content": "? 'bg-accent-cyan text-black font-semibold shadow-glow-cyan'"
+      },
+      {
+        "file": "src/components/ui/BentoCard.jsx",
+        "line": 20,
+        "content": "className={`relative group p-6 sm:p-8 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm overflow-hidden transition-all duration-300 hover:border-accent-cyan/40 hover:shadow-[0_0_25px_var(--color-accent-glow)] ${colSpan} ${className}`}"
+      },
+      {
+        "file": "src/components/ui/ThemeToggle.jsx",
+        "line": 24,
+        "content": "className={`relative inline-flex items-center justify-center w-11 h-11 min-w-[44px] min-h-[44px] rounded-full border border-border bg-surface/60 hover:bg-surface text-text-secondary hover:text-text-primary backdrop-blur-sm transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan/50 hover:border-accent-cyan/40 hover:shadow-glow-cyan dark:hover:shadow-glow-cyan ${className}`}"
+      },
+      {
+        "file": "src/pages/BlogPage.jsx",
+        "line": 56,
+        "content": "? 'bg-accent-cyan text-black font-semibold shadow-glow-cyan'"
+      },
+      {
+        "file": "src/styles/index.css",
+        "line": 20,
+        "content": "--color-accent-glow: rgba(2, 132, 199, 0.25);"
+      },
+      {
+        "file": "src/styles/index.css",
+        "line": 36,
+        "content": "--color-accent-glow: rgba(0, 240, 255, 0.35);"
+      },
+      {
+        "file": "tailwind.config.js",
+        "line": 43,
+        "content": "glow: 'var(--color-accent-glow)',"
+      },
+      {
+        "file": "tailwind.config.js",
+        "line": 64,
+        "content": "'glow-cyan': '0 0 20px rgba(0, 240, 255, 0.35)',"
+      },
+      {
+        "file": "tailwind.config.js",
+        "line": 65,
+        "content": "'glow-gold': '0 0 20px rgba(251, 191, 36, 0.35)',"
+      },
+      {
+        "file": "tailwind.config.js",
+        "line": 66,
+        "content": "'glow-card': '0 8px 32px 0 rgba(0, 0, 0, 0.37)',"
+      }
+    ],
+    "#00f0ff": [
+      {
+        "file": "src/components/3d/GlobeSphere.jsx",
+        "line": 41,
+        "content": "<directionalLight position={[4, 5, 3]} intensity={1.5} color=\"#00f0ff\" />"
+      },
+      {
+        "file": "src/components/3d/GlobeSphere.jsx",
+        "line": 61,
+        "content": "color=\"#00f0ff\""
+      },
+      {
+        "file": "src/components/3d/GlobeSphere.jsx",
+        "line": 73,
+        "content": "<meshBasicMaterial color=\"#00f0ff\" />"
+      },
+      {
+        "file": "src/components/3d/GlobeSphere.jsx",
+        "line": 79,
+        "content": "<meshBasicMaterial color=\"#00f0ff\" transparent={true} opacity={0.6} side={THREE.DoubleSide} />"
+      },
+      {
+        "file": "src/components/3d/GlobeSphere.jsx",
+        "line": 94,
+        "content": "color=\"#00f0ff\""
+      },
+      {
+        "file": "src/components/3d/GlobeSphere.jsx",
+        "line": 95,
+        "content": "emissive=\"#00f0ff\""
+      },
+      {
+        "file": "src/components/3d/HeroCanvas.jsx",
+        "line": 37,
+        "content": "<directionalLight position={[5, 6, 4]} intensity={1.5} color=\"#00f0ff\" />"
+      },
+      {
+        "file": "src/components/3d/HeroGeometry.jsx",
+        "line": 44,
+        "content": "color=\"#00f0ff\""
+      },
+      {
+        "file": "src/components/3d/HeroGeometry.jsx",
+        "line": 57,
+        "content": "emissive=\"#00f0ff\""
+      },
+      {
+        "file": "src/components/3d/ParticleField.jsx",
+        "line": 35,
+        "content": "color: new THREE.Color('#00f0ff'),"
+      },
+      {
+        "file": "src/components/common/CustomCursor.jsx",
+        "line": 170,
+        "content": "borderColor: '#00f0ff',"
+      },
+      {
+        "file": "src/components/common/CustomCursor.jsx",
+        "line": 184,
+        "content": "borderColor: '#00f0ff',"
+      },
+      {
+        "file": "src/components/common/CustomCursor.jsx",
+        "line": 208,
+        "content": "backgroundColor: '#00f0ff',"
+      },
+      {
+        "file": "src/components/sections/about/ExperienceTimeline.jsx",
+        "line": 97,
+        "content": "stroke=\"#00f0ff\""
+      },
+      {
+        "file": "src/data/projects.js",
+        "line": 18,
+        "content": "accentColor: \"#00f0ff\","
+      },
+      {
+        "file": "src/styles/index.css",
+        "line": 34,
+        "content": "--color-accent-cyan: #00f0ff;"
+      },
+      {
+        "file": "src/styles/index.css",
+        "line": 57,
+        "content": "background-color: #00f0ff;"
+      },
+      {
+        "file": "src/styles/index.css",
+        "line": 61,
+        "content": "background-color: #00f0ff;"
+      },
+      {
+        "file": "tailwind.config.js",
+        "line": 48,
+        "content": "neonCyan: '#00f0ff',"
+      }
+    ],
+    "#fbbf24": [
+      {
+        "file": "src/components/3d/GlobeSphere.jsx",
+        "line": 42,
+        "content": "<pointLight position={[-4, -3, -2]} intensity={1.0} color=\"#fbbf24\" />"
+      },
+      {
+        "file": "src/components/3d/GlobeSphere.jsx",
+        "line": 85,
+        "content": "<meshBasicMaterial color=\"#fbbf24\" transparent={true} opacity={0.8} />"
+      },
+      {
+        "file": "src/components/3d/HeroCanvas.jsx",
+        "line": 39,
+        "content": "<pointLight position={[-5, -4, -2]} intensity={1.2} color=\"#fbbf24\" />"
+      },
+      {
+        "file": "src/components/3d/HeroGeometry.jsx",
+        "line": 68,
+        "content": "color=\"#fbbf24\""
+      },
+      {
+        "file": "src/data/projects.js",
+        "line": 41,
+        "content": "accentColor: \"#fbbf24\","
+      },
+      {
+        "file": "src/styles/index.css",
+        "line": 35,
+        "content": "--color-accent-gold: #fbbf24;"
+      },
+      {
+        "file": "tailwind.config.js",
+        "line": 49,
+        "content": "warmGold: '#fbbf24',"
+      }
+    ],
+    "#07090e": [
+      {
+        "file": "src/components/3d/HeroGeometry.jsx",
+        "line": 56,
+        "content": "color=\"#07090e\""
+      },
+      {
+        "file": "src/context/ThemeContext.jsx",
+        "line": 39,
+        "content": "meta.setAttribute('content', theme === 'dark' ? '#07090e' : '#f8fafc');"
+      },
+      {
+        "file": "src/styles/index.css",
+        "line": 25,
+        "content": "--color-bg: #07090e;"
+      },
+      {
+        "file": "index.html",
+        "line": 6,
+        "content": "<meta name=\"theme-color\" content=\"#07090e\" id=\"theme-color-meta\" />"
+      },
+      {
+        "file": "index.html",
+        "line": 31,
+        "content": "if (meta) meta.setAttribute('content', '#07090e');"
+      },
+      {
+        "file": "tailwind.config.js",
+        "line": 46,
+        "content": "darkPrimary: '#07090e',"
+      }
+    ],
+    "#0e131f": [
+      {
+        "file": "src/styles/index.css",
+        "line": 26,
+        "content": "--color-surface: #0e131f;"
+      },
+      {
+        "file": "src/styles/index.css",
+        "line": 28,
+        "content": "--color-surface-card: #0e131f;"
+      },
+      {
+        "file": "tailwind.config.js",
+        "line": 47,
+        "content": "darkNavy: '#0e131f',"
+      }
+    ],
+    "#0284c7": [
+      {
+        "file": "src/styles/index.css",
+        "line": 18,
+        "content": "--color-accent-cyan: #0284c7;"
+      }
+    ],
+    "#d97706": [
+      {
+        "file": "src/styles/index.css",
+        "line": 19,
+        "content": "--color-accent-gold: #d97706;"
+      }
+    ]
+  },
+  "byFile": {
+    "src/components/3d/GlobeSphere.jsx": [
+      {
+        "keyword": "#00f0ff",
+        "line": 41,
+        "content": "<directionalLight position={[4, 5, 3]} intensity={1.5} color=\"#00f0ff\" />"
+      },
+      {
+        "keyword": "#fbbf24",
+        "line": 42,
+        "content": "<pointLight position={[-4, -3, -2]} intensity={1.0} color=\"#fbbf24\" />"
+      },
+      {
+        "keyword": "#00f0ff",
+        "line": 61,
+        "content": "color=\"#00f0ff\""
+      },
+      {
+        "keyword": "glow",
+        "line": 68,
+        "content": "{/* India Location Pin & Glowing Beacon */}"
+      },
+      {
+        "keyword": "#00f0ff",
+        "line": 73,
+        "content": "<meshBasicMaterial color=\"#00f0ff\" />"
+      },
+      {
+        "keyword": "#00f0ff",
+        "line": 79,
+        "content": "<meshBasicMaterial color=\"#00f0ff\" transparent={true} opacity={0.6} side={THREE.DoubleSide} />"
+      },
+      {
+        "keyword": "#fbbf24",
+        "line": 85,
+        "content": "<meshBasicMaterial color=\"#fbbf24\" transparent={true} opacity={0.8} />"
+      },
+      {
+        "keyword": "glow",
+        "line": 90,
+        "content": "{/* Tilted Glowing Orbital Ring */}"
+      },
+      {
+        "keyword": "#00f0ff",
+        "line": 94,
+        "content": "color=\"#00f0ff\""
+      },
+      {
+        "keyword": "#00f0ff",
+        "line": 95,
+        "content": "emissive=\"#00f0ff\""
+      }
+    ],
+    "src/components/3d/HeroCanvas.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 36,
+        "content": "{/* Primary Key Light: Neon Cyan Accent */}"
+      },
+      {
+        "keyword": "neon",
+        "line": 36,
+        "content": "{/* Primary Key Light: Neon Cyan Accent */}"
+      },
+      {
+        "keyword": "#00f0ff",
+        "line": 37,
+        "content": "<directionalLight position={[5, 6, 4]} intensity={1.5} color=\"#00f0ff\" />"
+      },
+      {
+        "keyword": "gold",
+        "line": 38,
+        "content": "{/* Accent Rim / Fill Light: Warm Gold Accent */}"
+      },
+      {
+        "keyword": "#fbbf24",
+        "line": 39,
+        "content": "<pointLight position={[-5, -4, -2]} intensity={1.2} color=\"#fbbf24\" />"
+      }
+    ],
+    "src/components/3d/HeroGeometry.jsx": [
+      {
+        "keyword": "#00f0ff",
+        "line": 44,
+        "content": "color=\"#00f0ff\""
+      },
+      {
+        "keyword": "glow",
+        "line": 52,
+        "content": "{/* Inner Glowing Core: Solid Icosahedron */}"
+      },
+      {
+        "keyword": "#07090e",
+        "line": 56,
+        "content": "color=\"#07090e\""
+      },
+      {
+        "keyword": "#00f0ff",
+        "line": 57,
+        "content": "emissive=\"#00f0ff\""
+      },
+      {
+        "keyword": "gold",
+        "line": 64,
+        "content": "{/* Secondary Accent Ring: Warm Gold Accent */}"
+      },
+      {
+        "keyword": "#fbbf24",
+        "line": 68,
+        "content": "color=\"#fbbf24\""
+      }
+    ],
+    "src/components/3d/ParticleField.jsx": [
+      {
+        "keyword": "#00f0ff",
+        "line": 35,
+        "content": "color: new THREE.Color('#00f0ff'),"
+      }
+    ],
+    "src/components/3d/SceneFallback.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 16,
+        "content": "<div className=\"w-64 h-64 md:w-80 md:h-80 rounded-full border border-accent-cyan/20 bg-accent-cyan/5 animate-pulse-subtle flex items-center justify-center\" />"
+      },
+      {
+        "keyword": "cyan",
+        "line": 19,
+        "content": "<div className=\"absolute w-44 h-44 md:w-56 md:h-56 rounded-full border border-dashed border-accent-cyan/30 animate-[spin_18s_linear_infinite]\" />"
+      },
+      {
+        "keyword": "cyan",
+        "line": 22,
+        "content": "<div className=\"absolute w-12 h-12 rounded-full bg-surface/80 border border-border flex items-center justify-center backdrop-blur-sm shadow-glow-cyan\">"
+      },
+      {
+        "keyword": "glow",
+        "line": 22,
+        "content": "<div className=\"absolute w-12 h-12 rounded-full bg-surface/80 border border-border flex items-center justify-center backdrop-blur-sm shadow-glow-cyan\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 23,
+        "content": "<span className=\"text-xs font-mono font-bold text-accent-cyan\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 31,
+        "content": "<span className=\"w-1.5 h-1.5 rounded-full bg-accent-cyan animate-ping\" />"
+      }
+    ],
+    "src/components/common/CustomCursor.jsx": [
+      {
+        "keyword": "#00f0ff",
+        "line": 170,
+        "content": "borderColor: '#00f0ff',"
+      },
+      {
+        "keyword": "#00f0ff",
+        "line": 184,
+        "content": "borderColor: '#00f0ff',"
+      },
+      {
+        "keyword": "#00f0ff",
+        "line": 208,
+        "content": "backgroundColor: '#00f0ff',"
+      },
+      {
+        "keyword": "cyan",
+        "line": 234,
+        "content": "className=\"fixed top-0 left-0 w-2 h-2 rounded-full bg-accent-cyan pointer-events-none z-[9999] will-change-transform\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 241,
+        "content": "className=\"fixed top-0 left-0 w-9 h-9 rounded-full border border-accent-cyan/50 pointer-events-none z-[9998] flex items-center justify-center will-change-transform\""
+      }
+    ],
+    "src/components/common/ErrorBoundary.jsx": [
+      {
+        "keyword": "gold",
+        "line": 33,
+        "content": "<div className=\"w-12 h-12 rounded-full bg-accent-gold/10 border border-accent-gold/30 flex items-center justify-center text-accent-gold\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 58,
+        "content": "className=\"px-4 py-2 text-xs font-mono tracking-wider uppercase text-accent-cyan border border-accent-cyan/30 rounded-md hover:bg-accent-cyan/10 transition-colors\""
+      }
+    ],
+    "src/components/common/Preloader.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 112,
+        "content": "<span className=\"text-accent-cyan font-semibold text-sm\">{progress}%</span>"
+      },
+      {
+        "keyword": "cyan",
+        "line": 118,
+        "content": "className=\"h-full bg-gradient-to-r from-accent-cyan via-accent-cyan to-accent-gold rounded-full transition-all duration-75 ease-out\""
+      },
+      {
+        "keyword": "gold",
+        "line": 118,
+        "content": "className=\"h-full bg-gradient-to-r from-accent-cyan via-accent-cyan to-accent-gold rounded-full transition-all duration-75 ease-out\""
+      }
+    ],
+    "src/components/common/ScrollProgressBar.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 57,
+        "content": "className=\"fixed top-0 left-0 right-0 h-[3px] origin-left z-[9998] pointer-events-none bg-gradient-to-r from-accent-cyan via-accent-cyan to-accent-gold shadow-[0_0_10px_rgba(0,240,255,0.7)] will-change-transform\""
+      },
+      {
+        "keyword": "gold",
+        "line": 57,
+        "content": "className=\"fixed top-0 left-0 right-0 h-[3px] origin-left z-[9998] pointer-events-none bg-gradient-to-r from-accent-cyan via-accent-cyan to-accent-gold shadow-[0_0_10px_rgba(0,240,255,0.7)] will-change-transform\""
+      }
+    ],
+    "src/components/layout/Footer.jsx": [
+      {
+        "keyword": "glow",
+        "line": 24,
+        "content": "{/* Subtle top ambient glow line */}"
+      },
+      {
+        "keyword": "cyan",
+        "line": 25,
+        "content": "<div className=\"absolute top-0 left-1/4 right-1/4 h-[1px] bg-gradient-to-r from-transparent via-accent-cyan/30 to-transparent\" />"
+      },
+      {
+        "keyword": "cyan",
+        "line": 33,
+        "content": "className=\"font-serif text-2xl font-bold tracking-tight text-accent-cyan hover:text-accent-gold transition-colors\""
+      },
+      {
+        "keyword": "gold",
+        "line": 33,
+        "content": "className=\"font-serif text-2xl font-bold tracking-tight text-accent-cyan hover:text-accent-gold transition-colors\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 53,
+        "content": "className=\"group inline-flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-text-muted hover:text-accent-cyan transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan rounded px-2 py-1\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 72,
+        "content": "className=\"text-text-secondary hover:text-accent-cyan transition-colors\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 91,
+        "content": "className=\"p-2 rounded-lg bg-surface border border-border/50 text-text-secondary hover:text-accent-cyan hover:border-accent-cyan/50 transition-colors\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 100,
+        "content": "className=\"p-2 rounded-lg bg-surface border border-border/50 text-text-secondary hover:text-accent-cyan hover:border-accent-cyan/50 transition-colors\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 107,
+        "content": "className=\"p-2 rounded-lg bg-surface border border-border/50 text-text-secondary hover:text-accent-cyan hover:border-accent-cyan/50 transition-colors\""
+      },
+      {
+        "keyword": "gold",
+        "line": 123,
+        "content": "className=\"inline-flex items-center gap-2 text-xs font-mono uppercase tracking-wider text-accent-gold hover:underline\""
+      }
+    ],
+    "src/components/layout/Layout.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 71,
+        "content": "className=\"min-h-screen flex flex-col bg-background text-text-primary selection:bg-accent-cyan selection:text-black relative\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 76,
+        "content": "className=\"sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[9999] focus:px-4 focus:py-2 focus:bg-accent-cyan focus:text-black focus:font-semibold focus:rounded focus:outline-none\""
+      }
+    ],
+    "src/components/layout/MobileMenu.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 110,
+        "content": "className=\"font-serif text-2xl font-bold tracking-tight text-accent-cyan\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 123,
+        "content": "className=\"w-11 h-11 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg border border-border/60 text-text-primary hover:text-accent-cyan hover:border-accent-cyan/60 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 144,
+        "content": "className={`group flex items-baseline justify-between py-3 min-h-[48px] border-b border-border/30 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan rounded ${"
+      },
+      {
+        "keyword": "cyan",
+        "line": 146,
+        "content": "? 'text-accent-cyan font-bold'"
+      },
+      {
+        "keyword": "cyan",
+        "line": 147,
+        "content": ": 'text-text-primary hover:text-accent-cyan'"
+      },
+      {
+        "keyword": "cyan",
+        "line": 153,
+        "content": "<span className=\"font-mono text-xs tracking-widest text-text-muted group-hover:text-accent-cyan transition-colors\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 180,
+        "content": "className=\"w-10 h-10 flex items-center justify-center rounded-full bg-surface border border-border/50 text-text-secondary hover:text-accent-cyan hover:border-accent-cyan/60 transition-colors\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 189,
+        "content": "className=\"w-10 h-10 flex items-center justify-center rounded-full bg-surface border border-border/50 text-text-secondary hover:text-accent-cyan hover:border-accent-cyan/60 transition-colors\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 196,
+        "content": "className=\"w-10 h-10 flex items-center justify-center rounded-full bg-surface border border-border/50 text-text-secondary hover:text-accent-cyan hover:border-accent-cyan/60 transition-colors\""
+      },
+      {
+        "keyword": "gold",
+        "line": 206,
+        "content": "className=\"inline-flex items-center gap-2 px-4 py-2 text-xs font-mono uppercase tracking-widest font-semibold rounded-full border border-accent-gold/40 text-accent-gold bg-accent-gold/5 hover:bg-accent-gold/15 transition-colors\""
+      }
+    ],
+    "src/components/layout/Navbar.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 51,
+        "content": "className=\"group flex items-center gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan rounded\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 53,
+        "content": "<span className=\"font-serif text-2xl font-bold tracking-tight text-accent-cyan group-hover:text-accent-gold transition-colors duration-300\">"
+      },
+      {
+        "keyword": "gold",
+        "line": 53,
+        "content": "<span className=\"font-serif text-2xl font-bold tracking-tight text-accent-cyan group-hover:text-accent-gold transition-colors duration-300\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 72,
+        "content": "className={`group relative py-1 text-sm tracking-wide font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan rounded-sm ${"
+      },
+      {
+        "keyword": "cyan",
+        "line": 74,
+        "content": "? 'text-accent-cyan font-semibold'"
+      },
+      {
+        "keyword": "cyan",
+        "line": 83,
+        "content": "isActive ? 'text-accent-cyan' : ''"
+      },
+      {
+        "keyword": "cyan",
+        "line": 91,
+        "content": "className=\"absolute inset-0 block transition-transform duration-300 ease-[cubic-bezier(0.76,0,0.24,1)] translate-y-full group-hover:translate-y-0 text-accent-cyan font-medium\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 99,
+        "content": "<span className=\"absolute bottom-0 left-0 right-0 h-[2px] bg-accent-cyan rounded-full\" />"
+      },
+      {
+        "keyword": "cyan",
+        "line": 101,
+        "content": "<span className=\"absolute bottom-0 left-0 right-0 h-[2px] bg-accent-cyan rounded-full scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out\" />"
+      },
+      {
+        "keyword": "gold",
+        "line": 118,
+        "content": "className=\"hidden sm:inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-mono uppercase tracking-wider font-semibold rounded-full border border-accent-gold/40 text-accent-gold hover:bg-accent-gold/10 hover:border-accent-gold transition-all duration-300 hover:shadow-glow-gold focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold\""
+      },
+      {
+        "keyword": "glow",
+        "line": 118,
+        "content": "className=\"hidden sm:inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-mono uppercase tracking-wider font-semibold rounded-full border border-accent-gold/40 text-accent-gold hover:bg-accent-gold/10 hover:border-accent-gold transition-all duration-300 hover:shadow-glow-gold focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 131,
+        "content": "className=\"md:hidden w-11 h-11 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg border border-border/60 text-text-primary hover:text-accent-cyan hover:border-accent-cyan/60 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan\""
+      }
+    ],
+    "src/components/sections/about/AboutHero.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 39,
+        "content": "className=\"inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 41,
+        "content": "<Sparkles className=\"w-3.5 h-3.5 text-accent-cyan animate-pulse-subtle\" />"
+      },
+      {
+        "keyword": "gold",
+        "line": 62,
+        "content": "className=\"text-lg sm:text-xl text-accent-gold font-sans max-w-2xl\""
+      }
+    ],
+    "src/components/sections/about/BioNarrative.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 21,
+        "content": "<div className=\"flex items-center gap-2 text-accent-cyan text-sm font-mono font-semibold\">"
+      },
+      {
+        "keyword": "gold",
+        "line": 31,
+        "content": "<div className=\"flex items-center gap-2 text-accent-gold text-sm font-mono font-semibold\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 44,
+        "content": "<MapPin className=\"w-3.5 h-3.5 text-accent-cyan\" />"
+      },
+      {
+        "keyword": "cyan",
+        "line": 48,
+        "content": "<Mail className=\"w-3.5 h-3.5 text-accent-cyan\" />"
+      },
+      {
+        "keyword": "cyan",
+        "line": 49,
+        "content": "<a href={`mailto:${developer.email}`} className=\"hover:text-accent-cyan transition-colors\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 54,
+        "content": "<Phone className=\"w-3.5 h-3.5 text-accent-cyan\" />"
+      }
+    ],
+    "src/components/sections/about/DepthPortrait.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 87,
+        "content": "<span className=\"text-xs font-mono uppercase tracking-widest text-accent-cyan bg-background/80 backdrop-blur-md px-2.5 py-1 rounded border border-border\">"
+      }
+    ],
+    "src/components/sections/about/ExperienceTimeline.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 93,
+        "content": "{/* Animated Luminous Neon Cyan Foreground Path */}"
+      },
+      {
+        "keyword": "neon",
+        "line": 93,
+        "content": "{/* Animated Luminous Neon Cyan Foreground Path */}"
+      },
+      {
+        "keyword": "#00f0ff",
+        "line": 97,
+        "content": "stroke=\"#00f0ff\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 121,
+        "content": "? 'border-accent-cyan bg-background shadow-glow-cyan scale-110'"
+      },
+      {
+        "keyword": "glow",
+        "line": 121,
+        "content": "? 'border-accent-cyan bg-background shadow-glow-cyan scale-110'"
+      },
+      {
+        "keyword": "cyan",
+        "line": 127,
+        "content": "isLit ? 'bg-accent-cyan animate-ping' : 'bg-transparent'"
+      },
+      {
+        "keyword": "cyan",
+        "line": 133,
+        "content": "<div className=\"p-6 sm:p-8 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm space-y-5 hover:border-accent-cyan/40 transition-colors\">"
+      },
+      {
+        "keyword": "gold",
+        "line": 135,
+        "content": "<span className=\"text-xs font-mono uppercase tracking-widest text-accent-gold font-semibold flex items-center gap-1.5\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 148,
+        "content": "<div className=\"flex items-center gap-1.5 text-accent-cyan text-sm font-medium mt-1\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 164,
+        "content": "<CheckCircle2 className=\"w-4 h-4 text-accent-cyan shrink-0 mt-0.5\" />"
+      }
+    ],
+    "src/components/sections/blog/BlogCard.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 18,
+        "content": "className=\"group relative rounded-2xl border border-border bg-surface/50 backdrop-blur-sm p-6 sm:p-8 flex flex-col justify-between hover:border-accent-cyan/40 transition-all duration-300\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 24,
+        "content": "<Calendar className=\"w-3.5 h-3.5 text-accent-cyan\" />"
+      },
+      {
+        "keyword": "gold",
+        "line": 27,
+        "content": "<span className=\"flex items-center gap-1.5 text-accent-gold\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 34,
+        "content": "<h3 className=\"text-xl sm:text-2xl font-serif font-bold text-text-primary group-hover:text-accent-cyan transition-colors leading-snug\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 48,
+        "content": "className=\"text-[11px] font-mono px-2.5 py-0.5 rounded bg-surface-subtle text-accent-cyan/90 border border-border\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 59,
+        "content": "<span className=\"text-accent-cyan font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform\">"
+      }
+    ],
+    "src/components/sections/contact/ContactForm.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 71,
+        "content": "<div className=\"p-5 rounded-xl bg-accent-cyan/10 border border-accent-cyan/30 text-accent-cyan space-y-2\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 110,
+        "content": "className=\"w-full min-h-[48px] px-4 py-3 rounded-lg bg-surface-subtle border border-border text-text-primary placeholder:text-text-muted/60 focus:outline-none focus:border-accent-cyan focus:ring-1 focus:ring-accent-cyan/40 transition-all font-sans text-sm\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 127,
+        "content": "className=\"w-full min-h-[48px] px-4 py-3 rounded-lg bg-surface-subtle border border-border text-text-primary placeholder:text-text-muted/60 focus:outline-none focus:border-accent-cyan focus:ring-1 focus:ring-accent-cyan/40 transition-all font-sans text-sm\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 150,
+        "content": "className=\"w-full px-4 py-3 rounded-lg bg-surface-subtle border border-border text-text-primary placeholder:text-text-muted/60 focus:outline-none focus:border-accent-cyan focus:ring-1 focus:ring-accent-cyan/40 transition-all font-sans text-sm resize-none\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 157,
+        "content": "className=\"w-full min-h-[48px] px-6 py-3.5 rounded-lg bg-accent-cyan text-black font-semibold text-sm tracking-wider uppercase flex items-center justify-center gap-2 hover:bg-opacity-90 hover:scale-[1.01] active:scale-[0.99] disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-glow-cyan\""
+      },
+      {
+        "keyword": "glow",
+        "line": 157,
+        "content": "className=\"w-full min-h-[48px] px-6 py-3.5 rounded-lg bg-accent-cyan text-black font-semibold text-sm tracking-wider uppercase flex items-center justify-center gap-2 hover:bg-opacity-90 hover:scale-[1.01] active:scale-[0.99] disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-glow-cyan\""
+      }
+    ],
+    "src/components/sections/contact/ContactInfo.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 22,
+        "content": "className=\"min-h-[48px] p-4 rounded-xl border border-border bg-surface hover:border-accent-cyan transition-colors flex items-center gap-4 group\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 24,
+        "content": "<div className=\"w-10 h-10 rounded-lg bg-accent-cyan/10 border border-accent-cyan/20 flex items-center justify-center text-accent-cyan\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 29,
+        "content": "<span className=\"text-sm font-sans font-medium text-text-primary group-hover:text-accent-cyan transition-colors\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 37,
+        "content": "className=\"min-h-[48px] p-4 rounded-xl border border-border bg-surface hover:border-accent-cyan transition-colors flex items-center gap-4 group\""
+      },
+      {
+        "keyword": "gold",
+        "line": 39,
+        "content": "<div className=\"w-10 h-10 rounded-lg bg-accent-gold/10 border border-accent-gold/20 flex items-center justify-center text-accent-gold\">"
+      },
+      {
+        "keyword": "gold",
+        "line": 44,
+        "content": "<span className=\"text-sm font-sans font-medium text-text-primary group-hover:text-accent-gold transition-colors\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 74,
+        "content": "className=\"min-h-[44px] px-4 py-3 rounded-xl border border-border bg-surface hover:border-accent-cyan text-xs font-mono text-text-primary hover:text-accent-cyan transition-all flex items-center justify-between\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 87,
+        "content": "className=\"min-h-[44px] px-4 py-3 rounded-xl border border-border bg-surface hover:border-accent-cyan text-xs font-mono text-text-primary hover:text-accent-cyan transition-all flex items-center justify-between\""
+      }
+    ],
+    "src/components/sections/home/GlobeSection.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 16,
+        "content": "<div className=\"inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 17,
+        "content": "<Compass className=\"w-3.5 h-3.5 text-accent-cyan animate-spin-slow\" />"
+      },
+      {
+        "keyword": "cyan",
+        "line": 23,
+        "content": "<span className=\"text-accent-cyan\">Engineering for the World.</span>"
+      },
+      {
+        "keyword": "gold",
+        "line": 33,
+        "content": "<span className=\"text-sm font-mono font-semibold text-accent-gold\">IST (UTC +5:30)</span>"
+      },
+      {
+        "keyword": "cyan",
+        "line": 37,
+        "content": "<span className=\"text-sm font-mono font-semibold text-accent-cyan\">Open for Roles</span>"
+      },
+      {
+        "keyword": "cyan",
+        "line": 52,
+        "content": "<MapPin className=\"w-3.5 h-3.5 text-accent-cyan\" />"
+      }
+    ],
+    "src/components/sections/home/HeroSection.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 64,
+        "content": "className=\"inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20 backdrop-blur-sm\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 66,
+        "content": "<Sparkles className=\"w-3.5 h-3.5 text-accent-cyan animate-pulse-subtle\" />"
+      },
+      {
+        "keyword": "gold",
+        "line": 93,
+        "content": "className=\"text-xl sm:text-2xl md:text-3xl font-medium text-accent-gold tracking-wide\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 123,
+        "content": "className=\"min-h-[48px] px-7 py-3.5 rounded-lg bg-accent-cyan text-black font-semibold text-sm tracking-wide shadow-glow-cyan hover:bg-opacity-90 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 flex items-center gap-2\""
+      },
+      {
+        "keyword": "glow",
+        "line": 123,
+        "content": "className=\"min-h-[48px] px-7 py-3.5 rounded-lg bg-accent-cyan text-black font-semibold text-sm tracking-wide shadow-glow-cyan hover:bg-opacity-90 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 flex items-center gap-2\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 134,
+        "content": "className=\"min-h-[48px] px-7 py-3.5 rounded-lg border border-border bg-surface/40 hover:border-accent-cyan text-text-primary font-medium text-sm tracking-wide hover:bg-surface/80 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 flex items-center gap-2 backdrop-blur-sm\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 137,
+        "content": "<span className=\"text-accent-cyan\">&rarr;</span>"
+      },
+      {
+        "keyword": "cyan",
+        "line": 152,
+        "content": "<ArrowDown className=\"w-4 h-4 text-accent-cyan animate-bounce\" />"
+      }
+    ],
+    "src/components/sections/home/ProjectsPreview.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 33,
+        "content": "className=\"inline-flex items-center gap-2 text-sm font-mono tracking-wider uppercase text-accent-cyan hover:text-accent-gold transition-colors group self-start md:self-end pb-2\""
+      },
+      {
+        "keyword": "gold",
+        "line": 33,
+        "content": "className=\"inline-flex items-center gap-2 text-sm font-mono tracking-wider uppercase text-accent-cyan hover:text-accent-gold transition-colors group self-start md:self-end pb-2\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 60,
+        "content": "className={`group relative flex flex-col justify-between p-6 sm:p-8 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm transition-all duration-300 hover:border-accent-cyan/50 hover:scale-[1.02] hover:shadow-[0_0_30px_var(--color-accent-glow)] ${"
+      },
+      {
+        "keyword": "glow",
+        "line": 60,
+        "content": "className={`group relative flex flex-col justify-between p-6 sm:p-8 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm transition-all duration-300 hover:border-accent-cyan/50 hover:scale-[1.02] hover:shadow-[0_0_30px_var(--color-accent-glow)] ${"
+      },
+      {
+        "keyword": "gold",
+        "line": 67,
+        "content": "<span className=\"text-xs font-mono uppercase tracking-widest text-accent-gold\">"
+      },
+      {
+        "keyword": "gold",
+        "line": 71,
+        "content": "<span className=\"inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-mono bg-accent-gold/10 text-accent-gold border border-accent-gold/20\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 76,
+        "content": "<span className=\"w-2 h-2 rounded-full bg-accent-cyan animate-pulse\" />"
+      },
+      {
+        "keyword": "cyan",
+        "line": 81,
+        "content": "<h3 className=\"text-2xl font-serif font-bold text-text-primary group-hover:text-accent-cyan transition-colors\">"
+      },
+      {
+        "keyword": "gold",
+        "line": 92,
+        "content": "<div className=\"p-3 rounded-xl border border-accent-gold/20 bg-accent-gold/5 space-y-1\">"
+      },
+      {
+        "keyword": "gold",
+        "line": 93,
+        "content": "<div className=\"flex items-center gap-1.5 text-xs font-mono font-semibold text-accent-gold\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 115,
+        "content": "className=\"px-2.5 py-1 rounded-md text-xs font-mono bg-surface-subtle/80 text-text-muted border border-border/40 group-hover:border-accent-cyan/20 group-hover:text-text-secondary transition-colors\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 140,
+        "content": "className=\"inline-flex items-center gap-2 text-xs font-mono font-semibold uppercase tracking-wider text-accent-cyan hover:underline\""
+      }
+    ],
+    "src/components/sections/home/SkillsSection.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 31,
+        "content": "<div className=\"flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-surface/60 backdrop-blur-sm shadow-sm hover:border-accent-cyan/50 hover:bg-surface transition-all duration-200 group\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 32,
+        "content": "<span className=\"w-2 h-2 rounded-full bg-accent-cyan/70 group-hover:bg-accent-cyan transition-colors\" />"
+      }
+    ],
+    "src/components/sections/home/StatsSection.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 63,
+        "content": "className=\"relative group p-6 sm:p-8 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm overflow-hidden hover:border-accent-cyan/40 transition-all duration-300\""
+      },
+      {
+        "keyword": "glow",
+        "line": 65,
+        "content": "{/* Background Accent Glow on Card Hover */}"
+      },
+      {
+        "keyword": "cyan",
+        "line": 66,
+        "content": "<div className=\"pointer-events-none absolute -inset-px rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-b from-accent-cyan/10 to-transparent -z-10\" />"
+      },
+      {
+        "keyword": "cyan",
+        "line": 68,
+        "content": "<div className=\"text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-accent-cyan tracking-tight\">"
+      },
+      {
+        "keyword": "gold",
+        "line": 70,
+        "content": "<span className=\"text-accent-gold ml-0.5\">{stat.suffix}</span>"
+      }
+    ],
+    "src/components/sections/home/TestimonialsSection.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 11,
+        "content": "className=\"w-[320px] sm:w-[380px] max-w-[85vw] p-6 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm shadow-sm hover:border-accent-cyan/40 transition-all duration-300 flex flex-col justify-between space-y-4\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 15,
+        "content": "<div className=\"flex items-center justify-between text-accent-cyan\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 30,
+        "content": "<div className=\"w-8 h-8 rounded-full bg-accent-cyan/10 border border-accent-cyan/20 flex items-center justify-center text-accent-cyan shrink-0\">"
+      },
+      {
+        "keyword": "gold",
+        "line": 40,
+        "content": "<div className=\"text-[11px] font-mono text-accent-gold flex items-center gap-1 truncate\">"
+      }
+    ],
+    "src/components/sections/projects/ProjectCard.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 19,
+        "content": "className={`relative group rounded-2xl border border-border bg-surface/50 backdrop-blur-sm p-6 sm:p-8 flex flex-col justify-between overflow-hidden hover:border-accent-cyan/40 transition-all duration-300 ${"
+      },
+      {
+        "keyword": "cyan",
+        "line": 20,
+        "content": "project.gradient || 'from-cyan-500/10 to-transparent'"
+      },
+      {
+        "keyword": "glow",
+        "line": 23,
+        "content": "{/* Background Accent Gradient Glow */}"
+      },
+      {
+        "keyword": "cyan",
+        "line": 24,
+        "content": "<div className=\"pointer-events-none absolute -inset-px rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-accent-cyan/15 via-transparent to-transparent -z-10\" />"
+      },
+      {
+        "keyword": "cyan",
+        "line": 30,
+        "content": "<h3 className=\"text-2xl sm:text-3xl font-serif font-bold text-text-primary group-hover:text-accent-cyan transition-colors\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 33,
+        "content": "<p className=\"text-xs font-mono uppercase tracking-widest text-accent-cyan mt-1\">"
+      },
+      {
+        "keyword": "gold",
+        "line": 39,
+        "content": "<span className=\"inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono font-medium text-accent-gold bg-accent-gold/10 border border-accent-gold/20\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 44,
+        "content": "<span className=\"px-3 py-1 rounded-full text-xs font-mono font-medium text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 60,
+        "content": "<CheckCircle2 className=\"w-3.5 h-3.5 text-accent-cyan shrink-0 mt-0.5\" />"
+      },
+      {
+        "keyword": "gold",
+        "line": 69,
+        "content": "<div className=\"p-4 rounded-xl border border-accent-gold/30 bg-accent-gold/5 space-y-2\">"
+      },
+      {
+        "keyword": "gold",
+        "line": 70,
+        "content": "<div className=\"flex items-center gap-1.5 text-xs font-mono text-accent-gold font-semibold uppercase tracking-wider\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 110,
+        "content": "className=\"min-h-[44px] px-5 py-2.5 rounded-lg bg-accent-cyan text-black font-semibold text-xs tracking-wider uppercase inline-flex items-center gap-2 hover:bg-opacity-90 hover:scale-[1.02] active:scale-[0.98] transition-all\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 127,
+        "content": "className=\"min-h-[44px] px-4 py-2.5 rounded-lg border border-border bg-surface text-text-primary font-medium text-xs tracking-wider uppercase inline-flex items-center gap-2 hover:border-accent-cyan hover:text-accent-cyan transition-all\""
+      }
+    ],
+    "src/components/sections/projects/ProjectsGrid.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 30,
+        "content": "? 'bg-accent-cyan text-black font-semibold shadow-glow-cyan'"
+      },
+      {
+        "keyword": "glow",
+        "line": 30,
+        "content": "? 'bg-accent-cyan text-black font-semibold shadow-glow-cyan'"
+      }
+    ],
+    "src/components/ui/BentoCard.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 20,
+        "content": "className={`relative group p-6 sm:p-8 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm overflow-hidden transition-all duration-300 hover:border-accent-cyan/40 hover:shadow-[0_0_25px_var(--color-accent-glow)] ${colSpan} ${className}`}"
+      },
+      {
+        "keyword": "glow",
+        "line": 20,
+        "content": "className={`relative group p-6 sm:p-8 rounded-2xl border border-border bg-surface/40 backdrop-blur-sm overflow-hidden transition-all duration-300 hover:border-accent-cyan/40 hover:shadow-[0_0_25px_var(--color-accent-glow)] ${colSpan} ${className}`}"
+      },
+      {
+        "keyword": "cyan",
+        "line": 24,
+        "content": "<h3 className=\"text-xl sm:text-2xl font-serif font-bold text-text-primary group-hover:text-accent-cyan transition-colors\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 69,
+        "content": "? 'bg-accent-cyan shadow-[0_0_10px_rgba(0,240,255,0.4)]'"
+      },
+      {
+        "keyword": "gold",
+        "line": 70,
+        "content": ": 'bg-accent-gold/80'"
+      }
+    ],
+    "src/components/ui/SectionHeading.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 20,
+        "content": "className={`inline-flex items-center gap-2 px-3 py-1 text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 rounded-full border border-accent-cyan/20 ${"
+      },
+      {
+        "keyword": "cyan",
+        "line": 24,
+        "content": "<span className=\"w-1.5 h-1.5 rounded-full bg-accent-cyan animate-pulse\" />"
+      }
+    ],
+    "src/components/ui/ThemeToggle.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 24,
+        "content": "className={`relative inline-flex items-center justify-center w-11 h-11 min-w-[44px] min-h-[44px] rounded-full border border-border bg-surface/60 hover:bg-surface text-text-secondary hover:text-text-primary backdrop-blur-sm transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan/50 hover:border-accent-cyan/40 hover:shadow-glow-cyan dark:hover:shadow-glow-cyan ${className}`}"
+      },
+      {
+        "keyword": "glow",
+        "line": 24,
+        "content": "className={`relative inline-flex items-center justify-center w-11 h-11 min-w-[44px] min-h-[44px] rounded-full border border-border bg-surface/60 hover:bg-surface text-text-secondary hover:text-text-primary backdrop-blur-sm transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan/50 hover:border-accent-cyan/40 hover:shadow-glow-cyan dark:hover:shadow-glow-cyan ${className}`}"
+      },
+      {
+        "keyword": "gold",
+        "line": 30,
+        "content": "className=\"flex items-center justify-center text-accent-gold\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 41,
+        "content": "className=\"flex items-center justify-center text-accent-cyan\""
+      }
+    ],
+    "src/context/ThemeContext.jsx": [
+      {
+        "keyword": "#07090e",
+        "line": 39,
+        "content": "meta.setAttribute('content', theme === 'dark' ? '#07090e' : '#f8fafc');"
+      }
+    ],
+    "src/data/projects.js": [
+      {
+        "keyword": "cyan",
+        "line": 17,
+        "content": "gradient: \"from-cyan-500/20 via-blue-500/10 to-transparent\","
+      },
+      {
+        "keyword": "blue",
+        "line": 17,
+        "content": "gradient: \"from-cyan-500/20 via-blue-500/10 to-transparent\","
+      },
+      {
+        "keyword": "#00f0ff",
+        "line": 18,
+        "content": "accentColor: \"#00f0ff\","
+      },
+      {
+        "keyword": "#fbbf24",
+        "line": 41,
+        "content": "accentColor: \"#fbbf24\","
+      }
+    ],
+    "src/pages/BlogPage.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 32,
+        "content": "<div className=\"inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 33,
+        "content": "<BookOpen className=\"w-3.5 h-3.5 text-accent-cyan\" />"
+      },
+      {
+        "keyword": "cyan",
+        "line": 56,
+        "content": "? 'bg-accent-cyan text-black font-semibold shadow-glow-cyan'"
+      },
+      {
+        "keyword": "glow",
+        "line": 56,
+        "content": "? 'bg-accent-cyan text-black font-semibold shadow-glow-cyan'"
+      },
+      {
+        "keyword": "cyan",
+        "line": 73,
+        "content": "className=\"w-full pl-10 pr-4 py-2 rounded-full text-xs font-mono bg-surface border border-border text-text-primary placeholder:text-text-muted focus:outline-none focus:border-accent-cyan transition-colors\""
+      },
+      {
+        "keyword": "cyan",
+        "line": 93,
+        "content": "className=\"text-xs font-mono text-accent-cyan underline hover:text-white\""
+      }
+    ],
+    "src/pages/ContactPage.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 11,
+        "content": "<div className=\"inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 12,
+        "content": "<Mail className=\"w-3.5 h-3.5 text-accent-cyan\" />"
+      }
+    ],
+    "src/pages/NotFoundPage.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 7,
+        "content": "<div className=\"text-8xl font-serif font-bold text-accent-cyan\">404</div>"
+      },
+      {
+        "keyword": "cyan",
+        "line": 14,
+        "content": "className=\"px-6 py-3 rounded bg-accent-cyan text-black font-semibold hover:bg-opacity-90 transition-all\""
+      }
+    ],
+    "src/pages/ProjectsPage.jsx": [
+      {
+        "keyword": "cyan",
+        "line": 14,
+        "content": "<div className=\"inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono tracking-widest text-accent-cyan bg-accent-cyan/10 border border-accent-cyan/20\">"
+      },
+      {
+        "keyword": "cyan",
+        "line": 15,
+        "content": "<Layers className=\"w-3.5 h-3.5 text-accent-cyan\" />"
+      },
+      {
+        "keyword": "gold",
+        "line": 18,
+        "content": "<span className=\"text-accent-gold\">{shippedCount} Shipped / {upcomingCount} Upcoming</span>"
+      }
+    ],
+    "src/styles/index.css": [
+      {
+        "keyword": "cyan",
+        "line": 18,
+        "content": "--color-accent-cyan: #0284c7;"
+      },
+      {
+        "keyword": "#0284c7",
+        "line": 18,
+        "content": "--color-accent-cyan: #0284c7;"
+      },
+      {
+        "keyword": "gold",
+        "line": 19,
+        "content": "--color-accent-gold: #d97706;"
+      },
+      {
+        "keyword": "#d97706",
+        "line": 19,
+        "content": "--color-accent-gold: #d97706;"
+      },
+      {
+        "keyword": "glow",
+        "line": 20,
+        "content": "--color-accent-glow: rgba(2, 132, 199, 0.25);"
+      },
+      {
+        "keyword": "#07090e",
+        "line": 25,
+        "content": "--color-bg: #07090e;"
+      },
+      {
+        "keyword": "#0e131f",
+        "line": 26,
+        "content": "--color-surface: #0e131f;"
+      },
+      {
+        "keyword": "#0e131f",
+        "line": 28,
+        "content": "--color-surface-card: #0e131f;"
+      },
+      {
+        "keyword": "cyan",
+        "line": 34,
+        "content": "--color-accent-cyan: #00f0ff;"
+      },
+      {
+        "keyword": "#00f0ff",
+        "line": 34,
+        "content": "--color-accent-cyan: #00f0ff;"
+      },
+      {
+        "keyword": "gold",
+        "line": 35,
+        "content": "--color-accent-gold: #fbbf24;"
+      },
+      {
+        "keyword": "#fbbf24",
+        "line": 35,
+        "content": "--color-accent-gold: #fbbf24;"
+      },
+      {
+        "keyword": "glow",
+        "line": 36,
+        "content": "--color-accent-glow: rgba(0, 240, 255, 0.35);"
+      },
+      {
+        "keyword": "#00f0ff",
+        "line": 57,
+        "content": "background-color: #00f0ff;"
+      },
+      {
+        "keyword": "#00f0ff",
+        "line": 61,
+        "content": "background-color: #00f0ff;"
+      }
+    ],
+    "index.html": [
+      {
+        "keyword": "#07090e",
+        "line": 6,
+        "content": "<meta name=\"theme-color\" content=\"#07090e\" id=\"theme-color-meta\" />"
+      },
+      {
+        "keyword": "#07090e",
+        "line": 31,
+        "content": "if (meta) meta.setAttribute('content', '#07090e');"
+      },
+      {
+        "keyword": "cyan",
+        "line": 42,
+        "content": "<body class=\"bg-background text-text-primary antialiased selection:bg-accent-cyan selection:text-black\">"
+      }
+    ],
+    "tailwind.config.js": [
+      {
+        "keyword": "cyan",
+        "line": 41,
+        "content": "cyan: withOpacity('--color-accent-cyan'),"
+      },
+      {
+        "keyword": "gold",
+        "line": 42,
+        "content": "gold: withOpacity('--color-accent-gold'),"
+      },
+      {
+        "keyword": "glow",
+        "line": 43,
+        "content": "glow: 'var(--color-accent-glow)',"
+      },
+      {
+        "keyword": "#07090e",
+        "line": 46,
+        "content": "darkPrimary: '#07090e',"
+      },
+      {
+        "keyword": "#0e131f",
+        "line": 47,
+        "content": "darkNavy: '#0e131f',"
+      },
+      {
+        "keyword": "cyan",
+        "line": 48,
+        "content": "neonCyan: '#00f0ff',"
+      },
+      {
+        "keyword": "neon",
+        "line": 48,
+        "content": "neonCyan: '#00f0ff',"
+      },
+      {
+        "keyword": "#00f0ff",
+        "line": 48,
+        "content": "neonCyan: '#00f0ff',"
+      },
+      {
+        "keyword": "gold",
+        "line": 49,
+        "content": "warmGold: '#fbbf24',"
+      },
+      {
+        "keyword": "#fbbf24",
+        "line": 49,
+        "content": "warmGold: '#fbbf24',"
+      },
+      {
+        "keyword": "cyan",
+        "line": 64,
+        "content": "'glow-cyan': '0 0 20px rgba(0, 240, 255, 0.35)',"
+      },
+      {
+        "keyword": "glow",
+        "line": 64,
+        "content": "'glow-cyan': '0 0 20px rgba(0, 240, 255, 0.35)',"
+      },
+      {
+        "keyword": "gold",
+        "line": 65,
+        "content": "'glow-gold': '0 0 20px rgba(251, 191, 36, 0.35)',"
+      },
+      {
+        "keyword": "glow",
+        "line": 65,
+        "content": "'glow-gold': '0 0 20px rgba(251, 191, 36, 0.35)',"
+      },
+      {
+        "keyword": "glow",
+        "line": 66,
+        "content": "'glow-card': '0 8px 32px 0 rgba(0, 0, 0, 0.37)',"
+      }
+    ]
+  },
+  "summary": {
+    "cyan": 129,
+    "neon": 3,
+    "blue": 1,
+    "gold": 36,
+    "glow": 22,
+    "#00f0ff": 19,
+    "#fbbf24": 7,
+    "#07090e": 6,
+    "#0e131f": 3,
+    "#0284c7": 1,
+    "#d97706": 1
+  }
+}

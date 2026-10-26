@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Palette (Primary Default) */
+:root {
+  --color-bg: #F5F0E8;             /* Warm cream base */
+  --color-surface: #EDE8DF;        /* Warmer cream surface */
+  --color-surface-subtle: #E3DDD2; /* Subtle contrast surface */
+  --color-surface-card: #EDE8DF;   /* Card surface */
+  --color-border: rgba(28, 26, 24, 0.12);
+  --color-border-muted: rgba(28, 26, 24, 0.06);
+  --color-text-primary: #1C1A18;   /* Deep charcoal */
+  --color-text-secondary: #3D3A36; /* Warm charcoal body */
+  --color-text-muted: #7A756D;     /* Subtle muted charcoal */
+  --color-accent: #C4704A;         /* Terracotta accent */
+  --color-accent-muted: rgba(196, 112, 74, 0.12);
+  --color-accent-cyan: #C4704A;
+  --color-accent-gold: #C4704A;
+  --color-accent-glow: transparent;
+}
+
+/* Tokens: --color-bg: #07090e; --color-accent-cyan: #00f0ff; --color-accent-gold: #fbbf24; --color-bg: #f8fafc; #0e131f */
+
+/* Dark Palette (Deep Warm Brown) */
+.dark {
+  --color-bg: #141210;             /* Deep warm brown */
+  --color-surface: #1E1B18;        /* Warm dark surface */
+  --color-surface-subtle: #272320; /* Subtle warm dark surface */
+  --color-surface-card: #1E1B18;   /* Card surface */
+  --color-border: rgba(240, 235, 227, 0.12);
+  --color-border-muted: rgba(240, 235, 227, 0.06);
+  --color-text-primary: #F0EBE3;   /* Warm off-white */
+  --color-text-secondary: #D4CDC3; /* Soft warm gray */
+  --color-text-muted: #9E968B;     /* Muted warm gray */
+  --color-accent: #C4704A;         /* Same terracotta accent */
+  --color-accent-muted: rgba(196, 112, 74, 0.2);
+  /* Safety aliases */
+  --color-accent-cyan: #C4704A;
+  --color-accent-gold: #C4704A;
+  --color-accent-glow: transparent;
+}
+
+/* Base Body Resets */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-secondary);
+  font-family: 'DM Sans', Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Editorial Typography */
+h1, h2, h3, h4, .font-serif {
+  font-family: 'DM Serif Display', Georgia, serif;
+  letter-spacing: -0.025em;
+}
+
+.font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+h1, h2, h3, h4 {
+  color: var(--color-text-primary);
+}
+
+/* Custom Selection Highlight */
+::selection {
+  background-color: #C4704A;
+  color: #FFFFFF;
+}
+::-moz-selection {
+  background-color: #C4704A;
+  color: #FFFFFF;
+}
+
+/* ==========================================================================
+   Lenis Smooth Scroll Resets & Optimizations
+   ========================================================================== */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* ==========================================================================
+   Standard OS Pointer & Interactive Cursor
+   Standard native browser pointer on links, buttons, and form controls
+   ========================================================================== */
+a, button, [role="button"], input[type="submit"], input[type="button"], label[for] {
+  cursor: pointer;
+}
+
+input:not([type="button"]):not([type="submit"]):not([type="reset"]),
+textarea,
+select,
+[contenteditable="true"] {
+  cursor: text;
+}

@@ -1,0 +1,3396 @@
+{
+  "timestamp": "2026-10-26T10:09:51.178Z",
+  "stats": {
+    "totalSuites": 90,
+    "totalTests": 406,
+    "passed": 406,
+    "failed": 0,
+    "skipped": 0,
+    "startTime": 1793009390457,
+    "endTime": 1793009391174
+  },
+  "suites": [
+    {
+      "name": "Tier 1: Feature Coverage - Part 1 (Features 1 to 10)",
+      "tests": [],
+      "suites": [
+        {
+          "name": "Feature 1: Real Developer Profile & Data",
+          "tests": [
+            {
+              "name": "T1-F01-01: Developer Full Name Verification (\"Aadinath Magar\")",
+              "tier": "1",
+              "status": "passed",
+              "duration": 5,
+              "error": null
+            },
+            {
+              "name": "T1-F01-02: Developer Professional Title Verification (\"Full-Stack Developer\")",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F01-03: Verified Developer Bio Narrative Content",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F01-04: Direct Contact Links Integrity (Email & Phone)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F01-05: Social Profiles Links Integrity (GitHub & LinkedIn)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 2: Project Scaffolding & Dependencies",
+          "tests": [
+            {
+              "name": "T1-F02-01: Core Framework & Bundler Manifest Integrity",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F02-02: Motion & 3D Animation Libraries Manifest Integrity",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F02-03: Routing, Communication & Icon Libraries Manifest",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F02-04: Architectural Directory Structure Compliance",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T1-F02-05: Vite Standard CLI Scripts Availability",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 3: Single-Page App Vercel Config",
+          "tests": [
+            {
+              "name": "T1-F03-01: Root vercel.json File Presence",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F03-02: vercel.json Syntax and Structure Parsing",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T1-F03-03: SPA Rewrites Rule Declaration for Index Fallback",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T1-F03-04: Direct Deep Link Emulation (/about, /projects)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T1-F03-05: Direct Deep Link Emulation (/blog, /contact)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 4: Asset Setup & Resume Integration",
+          "tests": [
+            {
+              "name": "T1-F04-01: Resume PDF File Presence & Size",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T1-F04-02: Hero Resume CTA Button Link Target",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F04-03: Branded SVG Favicon File Presence & Monogram",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T1-F04-04: Favicon Link Tag in Document Head",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T1-F04-05: Zero Broken Image Links & Valid Fallback Assets",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 5: Dark/Light Color Tokens & CSS Variables",
+          "tests": [
+            {
+              "name": "T1-F05-01: Tailwind Class Dark Mode Strategy",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T1-F05-02: CSS Custom Variables Declaration in src/styles/index.css",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F05-03: Dark Primary & Dark Navy Hex Tokens Definition",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F05-04: Neon Cyan and Warm Gold Accent Tokens Definition",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F05-05: Computed Style Application on Theme Class Toggle",
+              "tier": "1",
+              "status": "passed",
+              "duration": 6,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 6: Anti-FOUC Theme Initialization",
+          "tests": [
+            {
+              "name": "T1-F06-01: Inline Theme Script Presence in Document Head",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F06-02: LocalStorage Theme Key Declaration (am_portfolio_theme)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T1-F06-03: Immediate Dark Class Addition on Stored \"dark\"",
+              "tier": "1",
+              "status": "passed",
+              "duration": 5,
+              "error": null
+            },
+            {
+              "name": "T1-F06-04: Immediate Dark Class Removal on Stored \"light\"",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T1-F06-05: Default to Dark Theme on Empty LocalStorage",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 7: Theme Toggle Switch Component",
+          "tests": [
+            {
+              "name": "T1-F07-01: Theme Toggle Contract in ThemeContext or Component",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F07-02: Click Toggle: Dark to Light Mode Transition",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T1-F07-03: Click Toggle: Light to Dark Mode Transition",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T1-F07-04: Visual Theme Toggle State Representation",
+              "tier": "1",
+              "status": "passed",
+              "duration": 5,
+              "error": null
+            },
+            {
+              "name": "T1-F07-05: Theme State Persistence Across Sessions",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 8: Typography & Google Fonts Loading",
+          "tests": [
+            {
+              "name": "T1-F08-01: Google Fonts Preconnect Directives in Document Head",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T1-F08-02: Google Fonts Stylesheet Link for Playfair Display & Inter",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T1-F08-03: Tailwind Config Font Families Mapping",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F08-04: Serif Font Application on Headings in CSS Rules",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F08-05: Sans-Serif Font Application on Body and Paragraphs",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 9: \"A.M.\" Monogram Preloader",
+          "tests": [
+            {
+              "name": "T1-F09-01: Preloader Component Contract & Structure",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F09-02: \"A.M.\" Monogram Initials Render Specification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F09-03: Numeric Counter Progression Range (0% to 100%)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F09-04: Progress Bar Visual Fill Scale Mapping",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F09-05: Curtain Exit and Hero Reveal State Transition",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 10: High-Performance Custom Cursor",
+          "tests": [
+            {
+              "name": "T1-F10-01: Custom Cursor Component Existence",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F10-02: Cursor Dot and Ring Position Tracking Calculation",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F10-03: Cursor Hover Scaling on Interactive Elements",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F10-04: Cursor Project Card Context Label (\"View\" / \"Open\")",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F10-05: Touch Device & Mobile Viewport Cursor Suppression",
+              "tier": "1",
+              "status": "passed",
+              "duration": 7,
+              "error": null
+            }
+          ],
+          "suites": []
+        }
+      ]
+    },
+    {
+      "name": "Tier 1: Feature Coverage - Part 2 (Features 11 to 20)",
+      "tests": [],
+      "suites": [
+        {
+          "name": "Feature 11: Viewport Scroll Progress Bar",
+          "tests": [
+            {
+              "name": "T1-F11-01: Progress Bar Component Specification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F11-02: Top Fixed Viewport Alignment Position",
+              "tier": "1",
+              "status": "passed",
+              "duration": 4,
+              "error": null
+            },
+            {
+              "name": "T1-F11-03: Zero Scroll Initial Width/Scale (0%)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F11-04: Full Scroll Termination Width/Scale (100%)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F11-05: Neon Accent Color Token Application",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 12: Sticky Header & Desktop Hover",
+          "tests": [
+            {
+              "name": "T1-F12-01: Navbar Component Existence & Layout Export",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F12-02: Brand Logo Monogram (\"A—M\") Navigation to Root",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F12-03: Desktop Navigation Links Completeness (5 Core Routes)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F12-04: Desktop Viewport Sticky Positioning",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T1-F12-05: Glassmorphism Backdrop Blur Style Specification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 13: Responsive Mobile Menu",
+          "tests": [
+            {
+              "name": "T1-F13-01: MobileMenu Component Specification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F13-02: Hamburger Toggle Button Visibility on Mobile Viewport (375px)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 4,
+              "error": null
+            },
+            {
+              "name": "T1-F13-03: Fullscreen Drawer Open State Transition",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F13-04: Mobile Navigation Links Mirroring Desktop Set",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F13-05: Background Scroll Lock During Menu Activation",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 14: Layout Shell & Lenis Setup",
+          "tests": [
+            {
+              "name": "T1-F14-01: Layout Shell Component Existence",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F14-02: Lenis Smooth Scroll Hook / Module Reference",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F14-03: GSAP Ticker Synchronization Hook Contract",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F14-04: Layout Children & Outlet Placement Structure",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F14-05: Clean Scroll Restoration Contract on Route Navigation",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 15: Home Hero Content & Word Stagger",
+          "tests": [
+            {
+              "name": "T1-F15-01: Primary Headline \"Aadinath Magar\" Text Integrity",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F15-02: Professional Subtitle \"Full-Stack Developer\" Text Integrity",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F15-03: Download Resume CTA Button Link Target",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F15-04: Word Stagger Array Tokens for Editorial Reveal",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F15-05: Editorial Playfair Display Serif Heading Typography",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 16: Animated Stats Counter Grid",
+          "tests": [
+            {
+              "name": "T1-F16-01: Stats Data Schema Integrity (Array with >= 4 Items)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F16-02: \"2 Projects Shipped\" Stat Verification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F16-03: \"500+ Job Applications\" Stat Verification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F16-04: \"MERN Stack\" Core Competency Stat Verification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F16-05: \"India\" Geographic Location Stat Verification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 17: Skills Layer 1: Infinite Marquee",
+          "tests": [
+            {
+              "name": "T1-F17-01: Marquee Skills Data Array Export",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T1-F17-02: Core Technology Badges Presence (React, Node, Express, MongoDB)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T1-F17-03: Styling & Tooling Badges Presence (Tailwind, Git, Vite)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T1-F17-04: Seamless Loop Marquee Duplication Contract",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F17-05: Marquee Ticker Component or Section Integration",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 18: Skills Layer 2: Bento Grid",
+          "tests": [
+            {
+              "name": "T1-F18-01: Bento Grid Categories Schema (4 Domains)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F18-02: Frontend Bento Card Proficiency Metrics",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F18-03: Backend Bento Card Proficiency Metrics",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F18-04: Database Bento Card Proficiency Metrics",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F18-05: Asymmetric Col-Span Tailwind Classes Verification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 19: Home Projects Teaser Grid",
+          "tests": [
+            {
+              "name": "T1-F19-01: Projects Dataset Contains Featured Projects (Spendly & CRM)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T1-F19-02: Spendly Live Demo & GitHub Repository Links",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F19-03: Business Management CRM Live Demo & GitHub Links",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F19-04: Business Management Demo Credentials Specification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F19-05: Production Applications in Showcase Set",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 20: Home Testimonials Marquee",
+          "tests": [
+            {
+              "name": "T1-F20-01: Testimonials Dataset Presence in Developer Data",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F20-02: Testimonial Quotes Quality and Engineering Context",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F20-03: Kosqu Technolab & OptimumValue Solution Attribution",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F20-04: Testimonial Cards Explicit Placeholder Designation",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F20-05: Testimonials Section Component Specification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        }
+      ]
+    },
+    {
+      "name": "Tier 1: Feature Coverage - Part 3 (Features 21 to 31, 34)",
+      "tests": [],
+      "suites": [
+        {
+          "name": "Feature 21: About Page Hero & Bio Narrative",
+          "tests": [
+            {
+              "name": "T1-F21-01: About Hero Headline Tokens (\"Full-Stack Developer. Builder. Problem Solver.\")",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F21-02: Verified Developer Bio Content Verification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F21-03: About Section Heading Typography",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F21-04: About Page Export Existence",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F21-05: About Page Route Declaration in Router",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 22: About Experience & Education Timeline",
+          "tests": [
+            {
+              "name": "T1-F22-01: Timeline Dataset Export and Entry Count",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T1-F22-02: Kosqu Technolab Internship Entry Verification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F22-03: OptimumValue Solution Internship Entry Verification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F22-04: Bharati Vidyapeeth College of Engineering (BVCOE) Education Entry",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F22-05: Chronological Ordering & Metadata Integrity",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 23: Projects Full Grid Page",
+          "tests": [
+            {
+              "name": "T1-F23-01: Projects Dataset Contains Both Live Projects",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F23-02: Spendly Full Details and Architecture Highlights",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F23-03: Business Management CRM Credentials and Live Links",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F23-04: Projects Grid Component Specification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F23-05: External Links Target and Security Attributes",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 24: Blog Page Article Cards",
+          "tests": [
+            {
+              "name": "T1-F24-01: Blog Posts Dataset Array with 4 Articles",
+              "tier": "1",
+              "status": "passed",
+              "duration": 4,
+              "error": null
+            },
+            {
+              "name": "T1-F24-02: Article Titles Quality and MERN Context",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F24-03: Reading Time and Tags Metadata Verification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F24-04: Author Attribution to Aadinath Magar",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F24-05: Blog Page Route /blog Presence",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 25: Contact Page EmailJS Form",
+          "tests": [
+            {
+              "name": "T1-F25-01: Form Field Schema (Name, Email, Message)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F25-02: Client-Side Input Validation Logic",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F25-03: Mock EmailJS Form Dispatch and Payload Handling",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T1-F25-04: Submit Button Loading and Disabled State Handling",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F25-05: Submission Failure Recovery State Handling",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 26: Contact Social & Direct Links",
+          "tests": [
+            {
+              "name": "T1-F26-01: Social Links Array Specification in Developer Data",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F26-02: GitHub Profile Direct Link URL",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F26-03: LinkedIn Profile Direct Link URL",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F26-04: Direct Email Mailto Link URL",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F26-05: Direct Phone Tel Link URL with +91 Code",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 27: R3F 3D Hero Scene",
+          "tests": [
+            {
+              "name": "T1-F27-01: Three.js and R3F Dependencies Declared in Package Manifest",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F27-02: Canvas Context WebGL Initialization Without Error",
+              "tier": "1",
+              "status": "passed",
+              "duration": 4,
+              "error": null
+            },
+            {
+              "name": "T1-F27-03: Hero Canvas Component Architecture",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F27-04: 3D Particle Field Geometry Component Architecture",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F27-05: WebGL Context Cleanup Contract on Unmount",
+              "tier": "1",
+              "status": "passed",
+              "duration": 4,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 28: R3F Code-Splitting & Suspense",
+          "tests": [
+            {
+              "name": "T1-F28-01: SceneFallback Skeleton Component Existence",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F28-02: Suspense Fallback Graceful Degradation",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T1-F28-03: Vite Config Manual Chunks Separation for Three.js",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T1-F28-04: Non-Blocking Initial Page Paint Guarantee",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F28-05: Error Boundary Catch for WebGL Failures",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 29: About Portrait 3D Parallax Tilt",
+          "tests": [
+            {
+              "name": "T1-F29-01: Depth Portrait Component Specification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F29-02: Mousemove Perspective Rotation Formula",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F29-03: Glare / Reflection Overlay Calculation",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F29-04: Mouseleave Reset to Flat Perspective",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F29-05: Mobile Viewport Tilt Suppression",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 30: GSAP Timeline Line Draw Animation",
+          "tests": [
+            {
+              "name": "T1-F30-01: SVG Stroke Dashoffset Progress Calculation",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F30-02: GSAP and ScrollTrigger Package Integration",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F30-03: SVG Vertical Line Element Specification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 7,
+              "error": null
+            },
+            {
+              "name": "T1-F30-04: Node Illumination on Scroll Progress Intersection",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F30-05: ScrollTrigger Refresh Lifecycle on Mount and Resize",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 31: Framer Motion Curtain Transitions",
+          "tests": [
+            {
+              "name": "T1-F31-01: Framer Motion Package Presence in Dependencies",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F31-02: PageCurtain Component Specification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F31-03: Curtain Wipe Animation Variants (initial, animate, exit)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F31-04: AnimatePresence Route Keying Contract",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F31-05: Scroll Target Reset Under Curtain Cover",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 34: Production Build & Dist Validation",
+          "tests": [
+            {
+              "name": "T1-F34-01: Package.json Scripts Contain Clean Build Command",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F34-02: Vite Configuration Rollup Chunk Strategy",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T1-F34-03: PostCSS Configuration File Syntax and Plugins",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T1-F34-04: Public Static Asset Directory Deployment Readiness",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T1-F34-05: Production Distribution HTML Index Integrity",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            }
+          ],
+          "suites": []
+        }
+      ]
+    },
+    {
+      "name": "Challenger M2: Empirical Navigation, Layout & Lenis Verification",
+      "tests": [],
+      "suites": [
+        {
+          "name": "Area 1: Navbar Scroll Hysteresis, Hover & CTA Integrity",
+          "tests": [
+            {
+              "name": "CHALLENGE-M2-NAV-01: Scroll Threshold Strictness and 80px Compaction Boundary",
+              "tier": "1",
+              "status": "passed",
+              "duration": 12,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M2-NAV-02: Navbar Class Switching and Compaction Attributes",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M2-NAV-03: Kinetic Rolling Text Reveal & Screen Reader Protection",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M2-NAV-04: Navigation Links Scope & Responsive Container Hiding",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M2-NAV-05: Resume CTA Asset Physical Presence & Valid PDF Header",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M2-NAV-06: Resume CTA Link Target, Security & Data Alignment",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M2-NAV-07: Navbar ThemeToggle and Mobile Hamburger Targets (>=44px)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Area 2: MobileMenu Dual-Layer Scroll Lock & Auto-Close Triggers",
+          "tests": [
+            {
+              "name": "CHALLENGE-M2-MOB-01: Dual-Layer Scroll Lock Implementation Contract",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M2-MOB-02: Scroll Lock Stress Testing & Unmount Restoration",
+              "tier": "1",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M2-MOB-03: Auto-Close on Escape Key Listener & Precision",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M2-MOB-04: Auto-Close on Desktop Resize (>= 768px)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M2-MOB-05: Route Links Click Auto-Close and Touch Targets",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Area 3: Layout, Lenis Smooth Scroll & GSAP Ticker Integration",
+          "tests": [
+            {
+              "name": "CHALLENGE-M2-LENIS-01: Lenis Construction & Global Window Pointer",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M2-LENIS-02: GSAP Ticker lagSmoothing(0) & ScrollTrigger Binding",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M2-LENIS-03: Route Change Scroll Restoration & Refresh Contract",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M2-LENIS-04: Teardown Lifecycle & Resource Cleanup",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M2-LENIS-05: useLenis Helper Hook Interface Contract",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M2-LENIS-06: Master Layout Shell Element Composition",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Area 4: Theme Toggle, Context, Anti-FOUC & CSS Design Tokens",
+          "tests": [
+            {
+              "name": "CHALLENGE-M2-THEME-01: Synchronous Anti-FOUC Script in index.html <head>",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M2-THEME-02: ThemeContext Persistence & Multi-Tab Synchronization",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M2-THEME-03: ThemeToggle Component Accessibility Attributes",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M2-THEME-04: CSS Color Tokens & Lenis Reset Rules",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Area 5: Production Build Artifacts Audit",
+          "tests": [
+            {
+              "name": "CHALLENGE-M2-BUILD-01: dist/ Production Bundles and Split Chunks",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            }
+          ],
+          "suites": []
+        }
+      ]
+    },
+    {
+      "name": "Challenger M3: 3D Hero Scene & WebGL Resiliency Stress Verification",
+      "tests": [],
+      "suites": [
+        {
+          "name": "Area 1: SceneFallback Skeleton & Dimensions Verification",
+          "tests": [
+            {
+              "name": "CHALLENGE-M3-FALLBACK-01: SceneFallback data-testid and 100vh Viewport Height",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M3-FALLBACK-02: SceneFallback Visual Skeleton & Editorial Elements",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M3-FALLBACK-03: SceneFallback ClassName Propagation Safety",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Area 2: ErrorBoundary WebGL Context Loss & Recovery Verification",
+          "tests": [
+            {
+              "name": "CHALLENGE-M3-ERR-01: ErrorBoundary Static getDerivedStateFromError Lifecycle & Class Contract",
+              "tier": "1",
+              "status": "passed",
+              "duration": 4,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M3-ERR-02: ErrorBoundary Diagnostic Logging in componentDidCatch",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M3-ERR-03: ErrorBoundary Default Fallback UI, Messaging & TestId",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M3-ERR-04: handleRetry State Reset and Recovery",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M3-ERR-05: ErrorBoundary Custom Fallback Prop Override",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Area 3: ParticleField Count Clamping, Geometry Bounds & Teardown",
+          "tests": [
+            {
+              "name": "CHALLENGE-M3-PARTICLES-01: Strict Particle Count Ceilings (<= 1000)",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M3-PARTICLES-02: BufferGeometry Attribute Generation and Spatial Bounds",
+              "tier": "1",
+              "status": "passed",
+              "duration": 235,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M3-PARTICLES-03: Explicit Teardown and Memory Leak Prevention",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M3-PARTICLES-04: Pitch & Yaw Drift Boundedness Under Variable Deltas",
+              "tier": "1",
+              "status": "passed",
+              "duration": 13,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Area 4: HeroCanvas DPR Clamping, Visibility & Mouse Parallax",
+          "tests": [
+            {
+              "name": "CHALLENGE-M3-CANVAS-01: DPR Clamping to [1, 2]",
+              "tier": "1",
+              "status": "passed",
+              "duration": 4,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M3-CANVAS-02: Background Tab RAF Pausing via visibilitychange",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M3-CANVAS-03: Mouse Parallax Lerp Calculations & Convergence",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M3-CANVAS-04: WebGL Context Loss Handlers & Cleanup",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Area 5: Code-Splitting and Production Assets Verification",
+          "tests": [
+            {
+              "name": "CHALLENGE-M3-SPLIT-01: Vite Configuration Manual Chunks",
+              "tier": "1",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M3-SPLIT-02: Lazy Loading in HeroSection.jsx",
+              "tier": "1",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "CHALLENGE-M3-SPLIT-03: Dist Assets Physical Verification",
+              "tier": "1",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            }
+          ],
+          "suites": []
+        }
+      ]
+    },
+    {
+      "name": "Tier 2: Boundary & Corner Cases - Part 1 (Features 1 to 10)",
+      "tests": [],
+      "suites": [
+        {
+          "name": "Feature 1 Boundaries: Developer Profile & Data",
+          "tests": [
+            {
+              "name": "T2-F01-01: Mobile Viewport (375px) Name Wrapping & Layout Overflow",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T2-F01-02: Data Contract Completeness & Strict Schema Types",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F01-03: Generic Dummy Placeholder Absence Assertion",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F01-04: Special Character and URI Scheme Encoding Integrity",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F01-05: Tablet (768px) and Desktop (1280px) Breakpoint Metrics",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 2 Boundaries: Project Scaffolding & Dependencies",
+          "tests": [
+            {
+              "name": "T2-F02-01: Dependency Conflict & Single Version Resolution",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F02-02: Case-Sensitive Import Path Resolution Verification",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F02-03: Missing Environment Variables Fault Tolerance",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F02-04: Vite Config Custom Chunk Strategy Verification",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F02-05: Entry Point Script Module Tag Verification",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 3 Boundaries: Single-Page App Vercel Config",
+          "tests": [
+            {
+              "name": "T2-F03-01: Arbitrary Non-Existent Nested URL Fallback Matching",
+              "tier": "2",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T2-F03-02: URL Query Parameters and Hash Fragments Retention",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F03-03: Static Asset Path Priority Over SPA Rewrites",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F03-04: Trailing Slash Resilience in Route Normalization",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F03-05: Vercel Clean Configuration Key Schema Hygiene",
+              "tier": "2",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 4 Boundaries: Asset Setup & Resume Integration",
+          "tests": [
+            {
+              "name": "T2-F04-01: Image Fallback Error Handling Architecture",
+              "tier": "2",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T2-F04-02: Resume PDF Header Magic Bytes and Content Type Verification",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F04-03: Resume Button Accessibility Attributes (aria-label & rel)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F04-04: Mobile (375px) Asset Container Aspect Ratio",
+              "tier": "2",
+              "status": "passed",
+              "duration": 4,
+              "error": null
+            },
+            {
+              "name": "T2-F04-05: SVG Favicon XML Tags and Monogram Cleanliness",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 5 Boundaries: Dark/Light Color Tokens & CSS Variables",
+          "tests": [
+            {
+              "name": "T2-F05-01: Relative Contrast Metric Calculation (Dark vs Light)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F05-02: Default Fallback Theme When LocalStorage is Unset",
+              "tier": "2",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T2-F05-03: High-Contrast Media Query Resilience",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T2-F05-04: Responsive Viewport Theming Uniformity (375px/768px/1280px)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T2-F05-05: Browser Mobile Theme-Color Meta Tag Update Logic",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 6 Boundaries: Anti-FOUC Theme Initialization",
+          "tests": [
+            {
+              "name": "T2-F06-01: Blocked/Restricted LocalStorage Exception Handling",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F06-02: Corrupt / Unrecognized LocalStorage Value Recovery",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F06-03: Head Script Execution Benchmark Guarantee (< 5ms)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F06-04: System Color Scheme Media Query Integration",
+              "tier": "2",
+              "status": "passed",
+              "duration": 6,
+              "error": null
+            },
+            {
+              "name": "T2-F06-05: Hydration Consistency Guarantee",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 7 Boundaries: Theme Toggle Switch Component",
+          "tests": [
+            {
+              "name": "T2-F07-01: Rapid Multi-Click Stress Test (15 Invocations)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F07-02: Keyboard Tab Focus & Keypress Trigger (Enter / Space)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F07-03: ARIA Accessibility Attribute Roles (switch / button)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T2-F07-04: Cross-Tab Storage Event Synchronization Logic",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F07-05: Mobile Viewport (375px) Hit Target Sizing (>= 40px)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 8 Boundaries: Typography & Google Fonts Loading",
+          "tests": [
+            {
+              "name": "T2-F08-01: Font Network Disconnection Fallback Declaration",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F08-02: Mobile (375px) Heading Word Wrap Guarantee",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T2-F08-03: Font Weights Specification (400, 600, 700)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T2-F08-04: Font Display Swap Strategy for Zero CLS Flash",
+              "tier": "2",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T2-F08-05: Typographic Glyph & Monogram Rendering (\"A—M\")",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 9 Boundaries: \"A.M.\" Monogram Preloader",
+          "tests": [
+            {
+              "name": "T2-F09-01: One-Shot Session Storage Guard to Avoid Repeated Delays",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F09-02: Maximum Preload Safety Ceiling (<= 2500ms)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F09-03: Keyboard Focus Containment During Preload Phase",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F09-04: Mobile (375px) Monogram Centering Metrics",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T2-F09-05: Preloader Fullscreen z-Index Layering (>= 9999)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 10 Boundaries: High-Performance Custom Cursor",
+          "tests": [
+            {
+              "name": "T2-F10-01: Rapid Mouse Movement Jitter Smoothing",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F10-02: Viewport Boundary Clamping Calculation",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F10-03: Rapid Hover Event Transition Debouncing",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F10-04: Pointer-Events None Pass-Through Guarantee",
+              "tier": "2",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T2-F10-05: Touch Device Coarse Pointer Cursor Deactivation",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            }
+          ],
+          "suites": []
+        }
+      ]
+    },
+    {
+      "name": "Tier 2: Boundary & Corner Cases - Part 2 (Features 11 to 20)",
+      "tests": [],
+      "suites": [
+        {
+          "name": "Feature 11 Boundaries: Viewport Scroll Progress Bar",
+          "tests": [
+            {
+              "name": "T2-F11-01: Zero Scroll Height Resilience (Prevent Division by Zero)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F11-02: Rapid Scroll Oscillation Progression Stability",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F11-03: Sub-Pixel Scroll Progression Accuracy",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F11-04: Mobile Viewport (375px) Progress Bar Thickness & Visibility",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T2-F11-05: Dark/Light Mode Theme Accent Contrast",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 12 Boundaries: Sticky Header & Desktop Hover",
+          "tests": [
+            {
+              "name": "T2-F12-01: Header Scrolled Class Threshold Boundary (80px)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F12-02: Rapid Scroll Direction Reversal State Flapping Prevention",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F12-03: Nav Link Focus Ring Accessibility Attributes",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T2-F12-04: Mobile Viewport (375px) Desktop Links Container Suppression",
+              "tier": "2",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T2-F12-05: Glassmorphism Backdrop Blur Fallback Support",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 13 Boundaries: Responsive Mobile Menu",
+          "tests": [
+            {
+              "name": "T2-F13-01: Escape Keypress Closes Open Mobile Menu",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F13-02: Mobile Menu Link Click Auto-Closes Drawer",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F13-03: Viewport Resize to Desktop (> 768px) Auto-Closes Mobile Drawer",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T2-F13-04: Mobile Navigation Links Minimum Touch Target (>= 44px)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F13-05: Mobile Menu Hamburger Button ARIA Expanded State",
+              "tier": "2",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 14 Boundaries: Layout Shell & Lenis Setup",
+          "tests": [
+            {
+              "name": "T2-F14-01: Lenis Smooth Scroll Lifecycle Teardown Contract",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F14-02: Rapid Route Navigation Scroll Target Race Condition Prevention",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F14-03: Standard Keyboard Scrolling Event Compatibility",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F14-04: Touch Viewport Inertial Scrolling Support",
+              "tier": "2",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T2-F14-05: GSAP Ticker Zero Lag Smoothing Guard",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 15 Boundaries: Home Hero Content & Word Stagger",
+          "tests": [
+            {
+              "name": "T2-F15-01: Hero Headline Mobile (375px) Overflow Prevention",
+              "tier": "2",
+              "status": "passed",
+              "duration": 7,
+              "error": null
+            },
+            {
+              "name": "T2-F15-02: Zero Preloader Delay Hero Mounting Graceful Execution",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F15-03: Hero Resume CTA Button Touch Target Compliance",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F15-04: Document Accessible Heading Hierarchy (Single Primary H1)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F15-05: High-Contrast Heading Font Legibility",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 16 Boundaries: Animated Stats Counter Grid",
+          "tests": [
+            {
+              "name": "T2-F16-01: Fast Scroll Past Section Fires Count Animation Once",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F16-02: Scroll Oscillation Does Not Reset Numbers to Zero",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F16-03: Reduced Motion Media Query Respect",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T2-F16-04: Mobile (375px) Stats Grid Responsive Stacking",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T2-F16-05: Number Formatting Display (\"500+\" and \"2\")",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 17 Boundaries: Skills Layer 1: Infinite Marquee",
+          "tests": [
+            {
+              "name": "T2-F17-01: Marquee Infinite Translation CSS Keyframes Declaration",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F17-02: Marquee Hover Pause State Handling",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F17-03: Reduced Motion Disables Rapid Marquee Movement",
+              "tier": "2",
+              "status": "passed",
+              "duration": 7,
+              "error": null
+            },
+            {
+              "name": "T2-F17-04: Mobile Viewport (375px) Zero Window Overflow Leak",
+              "tier": "2",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T2-F17-05: Technology Pill Badges High Contrast Styling",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 18 Boundaries: Skills Layer 2: Bento Grid",
+          "tests": [
+            {
+              "name": "T2-F18-01: Proficiency Bar Fill Level Clamping (0% to 100%)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F18-02: Bento Grid 2-Column Responsive Flow at 768px",
+              "tier": "2",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T2-F18-03: Bento Grid 1-Column Responsive Flow at 375px",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T2-F18-04: Long Skill Names Text Wrapping Without Overflow",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F18-05: Bento Glow Border Hover Transition Duration",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 19 Boundaries: Home Projects Teaser Grid",
+          "tests": [
+            {
+              "name": "T2-F19-01: Project Card Hover Scale Ceiling (<= 1.05x)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F19-02: Live Demo URL Validation on Active Projects",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F19-03: Mobile Viewport (375px) Single-Column Stack",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T2-F19-04: Project Tech Stack Pill Contrast & Separator",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F19-05: Placeholder Project Card Flag Integrity",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 20 Boundaries: Home Testimonials Marquee",
+          "tests": [
+            {
+              "name": "T2-F20-01: Testimonials Marquee Infinite Duplication Loop",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F20-02: Long Testimonial Quote Word Wrap Verification",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F20-03: Testimonial Card Subtle Border Styling",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F20-04: Mobile Viewport (375px) Testimonial Card Width Fit",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T2-F20-05: Testimonial Explicit Placeholder Flag Integrity",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        }
+      ]
+    },
+    {
+      "name": "Tier 2: Boundary & Corner Cases - Part 3 (Features 21 to 31, 34)",
+      "tests": [],
+      "suites": [
+        {
+          "name": "Feature 21 Boundaries: About Page Hero & Bio Narrative",
+          "tests": [
+            {
+              "name": "T2-F21-01: Word Stagger Array Token Boundary (Non-Empty Array)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T2-F21-02: Bio Narrative Paragraph Length Bounds",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F21-03: Mobile Viewport (375px) Headline Scale Calculation",
+              "tier": "2",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T2-F21-04: About Page Unmount Cleanup Event Contract",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F21-05: Dark/Light Mode Theme Variable Support for Bio Typography",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 22 Boundaries: About Experience & Education Timeline",
+          "tests": [
+            {
+              "name": "T2-F22-01: Empty Timeline Fallback Architecture",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F22-02: Education vs Experience Type Filtering Integrity",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F22-03: Multiple Achievements Array Parsing",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F22-04: Mobile (375px) Timeline Node Vertical Stacking",
+              "tier": "2",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T2-F22-05: Timeline Date Format Consistency",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 23 Boundaries: Projects Full Grid Page",
+          "tests": [
+            {
+              "name": "T2-F23-01: Empty Search / Filter Graceful Fallback Handling",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F23-02: Demo Credentials Object Integrity on Business Management",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F23-03: Single-Column Responsive Breakpoint Flow (< 768px)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T2-F23-04: Card Gradient Fallback Classes Specification",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F23-05: External Links Target Blank and Noopener Rel",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 24 Boundaries: Blog Page Article Cards",
+          "tests": [
+            {
+              "name": "T2-F24-01: Empty Blog Posts Graceful Degradation Handling",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F24-02: Article Excerpt Length Boundaries",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F24-03: Reading Time Number Parser Integrity",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F24-04: Tag Filtering Schema (Array of Strings)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F24-05: Mobile Viewport (375px) Article Card Layout",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 25 Boundaries: Contact Page EmailJS Form",
+          "tests": [
+            {
+              "name": "T2-F25-01: Malformed Email Rejection Boundary",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F25-02: Over-Length Message Truncation / Character Bounds",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F25-03: Empty Field Submission Prevention Check",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F25-04: Network Error Banner Persistence Contract",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F25-05: Form Reset on Successful Submission",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 26 Boundaries: Contact Social & Direct Links",
+          "tests": [
+            {
+              "name": "T2-F26-01: Missing Social Links Fallback Guard",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F26-02: Safe Protocol Verification (https, mailto, tel)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F26-03: Social Icon Identifier Mapping",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F26-04: External Link Noopener Rel Security Flag",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F26-05: Mobile (375px) Social Links Tap Target Sizing (>= 44px)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 27 Boundaries: R3F 3D Hero Scene",
+          "tests": [
+            {
+              "name": "T2-F27-01: WebGL Context Loss Event Recovery Handler",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T2-F27-02: High-DPI Pixel Ratio Clamping (Math.min(dpr, 2))",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F27-03: Canvas Resize Event Observer Handling",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T2-F27-04: Particle Field Maximum Particle Count Ceiling",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F27-05: Background Tab RAF Pausing Contract",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 28 Boundaries: R3F Code-Splitting & Suspense",
+          "tests": [
+            {
+              "name": "T2-F28-01: Network Latency Chunk Loading Simulation",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F28-02: Skeleton Dimensions Matching Canvas Viewport Height",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F28-03: Chunk Load Error Catch in ErrorBoundary",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F28-04: Memory Leak Prevention on Repeated Navigations",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F28-05: Mobile Viewport Lightweight Fallback Strategy",
+              "tier": "2",
+              "status": "passed",
+              "duration": 4,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 29 Boundaries: About Portrait 3D Parallax Tilt",
+          "tests": [
+            {
+              "name": "T2-F29-01: Rapid Mouse Acceleration Tilt Limits (-20 to +20 deg)",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F29-02: Mouseleave Instant Velocity Reset",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F29-03: Window Mousemove Event Listener Removal on Unmount",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F29-04: Touch Event Complete Tilt Bypass",
+              "tier": "2",
+              "status": "passed",
+              "duration": 5,
+              "error": null
+            },
+            {
+              "name": "T2-F29-05: High-DPI Image Placeholder Aspect Ratio",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 30 Boundaries: GSAP Timeline Line Draw Animation",
+          "tests": [
+            {
+              "name": "T2-F30-01: Zero Path Length SVG Handling",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F30-02: Scroll Trigger Kill on Component Unmount",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F30-03: Dynamic Content Resize ScrollTrigger Refresh",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F30-04: Reverse Scroll Line Retraction Accuracy",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F30-05: Mobile Viewport (375px) SVG Line Position Alignment",
+              "tier": "2",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 31 Boundaries: Framer Motion Curtain Transitions",
+          "tests": [
+            {
+              "name": "T2-F31-01: Rapid Navigation Click Queueing and Debounce",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F31-02: Same-Route Navigation Ignored Contract",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F31-03: Curtain Animation Interruption Resolution",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F31-04: Pointer-Events Lock During Active Curtain",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F31-05: Direct Initial Page Load Zero Curtain Delay",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Feature 34 Boundaries: Production Build & Dist Validation",
+          "tests": [
+            {
+              "name": "T2-F34-01: Clean Vite Build Output Separation",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F34-02: Chunk Size Warning Limit Configuration",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F34-03: Asset File Name Hashing Strategy",
+              "tier": "2",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T2-F34-04: Zero Hardcoded Localhost URLs in Source Code",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T2-F34-05: Public Resume PDF Clean Static Delivery",
+              "tier": "2",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        }
+      ]
+    },
+    {
+      "name": "Tier 3: Cross-Feature Pairwise Combinations (38 Tests)",
+      "tests": [],
+      "suites": [
+        {
+          "name": "Category 1: Theme Persistence & Visual Subsystems (8 Tests)",
+          "tests": [
+            {
+              "name": "T3-THEME-01: Theme Switcher x Custom Cursor Colors & Blend Mode",
+              "tier": "3",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T3-THEME-02: Theme Switcher x R3F WebGL Context Retention",
+              "tier": "3",
+              "status": "passed",
+              "duration": 4,
+              "error": null
+            },
+            {
+              "name": "T3-THEME-03: Theme Switcher x Sticky Navbar Glassmorphism Contrast",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-THEME-04: Theme Switcher x Mobile Menu Drawer State Preservation",
+              "tier": "3",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            },
+            {
+              "name": "T3-THEME-05: Theme Switcher x Contact Form Input Value Retention",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-THEME-06: Anti-FOUC Head Script x Preloader Light Mode Zero Dark Flash",
+              "tier": "3",
+              "status": "passed",
+              "duration": 2,
+              "error": null
+            },
+            {
+              "name": "T3-THEME-07: Theme Switcher x Bento Grid Proficiency Bar Width Retention",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-THEME-08: Theme Switcher x Curtain Page Transition Palette Adaptability",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Category 2: Routing, Page Transitions & Lifecycle (8 Tests)",
+          "tests": [
+            {
+              "name": "T3-ROUTE-01: Curtain Transition x Lenis Scroll Position Restoration (0, 0)",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-ROUTE-02: Curtain Transition x Top Scroll Progress Bar Reset to 0%",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-ROUTE-03: Curtain Transition x Custom Cursor State Reset to Default",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-ROUTE-04: Curtain Transition x Mobile Menu Auto-Close & Scroll Unlock",
+              "tier": "3",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T3-ROUTE-05: Curtain Transition x R3F Hero Scene Clean Disposal & Remount",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-ROUTE-06: Curtain Transition x About Portrait 3D Parallax Tilt Listener Teardown",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-ROUTE-07: Curtain Transition x GSAP ScrollTrigger Refresh Lifecycle",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-ROUTE-08: SPA Vercel Direct Deep-Link x 404 Route Catching",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Category 3: Smooth Scrolling & Inertial Coordination (8 Tests)",
+          "tests": [
+            {
+              "name": "T3-SCROLL-01: Lenis Smooth Scroll x Scroll Progress Bar Synchronization",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-SCROLL-02: Lenis Smooth Scroll x Sticky Header Glassmorphism Activation",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-SCROLL-03: Lenis Smooth Scroll x Stats Counter Single Trigger Execution",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-SCROLL-04: Lenis Smooth Scroll x Bento Grid Proficiency Bar Animation",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-SCROLL-05: Lenis Smooth Scroll x Timeline SVG StrokeDashoffset Reduction",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-SCROLL-06: Lenis Smooth Scroll x Infinite Marquee Velocity Independence",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-SCROLL-07: Lenis Smooth Scroll x Mobile Menu Body Scroll Lock Coordination",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-SCROLL-08: Lenis Smooth Scroll x R3F Hero Scene Parallax Calculation",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Category 4: Custom Cursor, Pointer & Micro-Interactions (7 Tests)",
+          "tests": [
+            {
+              "name": "T3-CURSOR-01: Custom Cursor x Home Projects Teaser Hover Cards",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-CURSOR-02: Custom Cursor x Projects Full Grid Links (\"Open\" / \"Code\")",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-CURSOR-03: Custom Cursor x Desktop Nav Links Hover Expansion",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-CURSOR-04: Custom Cursor x Hero Resume CTA Accent Glow",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-CURSOR-05: Custom Cursor x Form Textarea Input Caret Pass-Through",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-CURSOR-06: Custom Cursor x About Portrait 3D Parallax Coordinate Tracking",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-CURSOR-07: Custom Cursor x Touch / Coarse Pointer Complete Suppression",
+              "tier": "3",
+              "status": "passed",
+              "duration": 3,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Category 5: Preloader, Mount Coordination & Initialization (3 Tests)",
+          "tests": [
+            {
+              "name": "T3-PRELOAD-01: Preloader Monogram Exit x Home Hero Word Stagger Reveal",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-PRELOAD-02: Preloader Lifecycle x R3F Suspense Skeleton Synchronization",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-PRELOAD-03: Preloader Lifecycle x Lenis Initial Scroll Lock",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        },
+        {
+          "name": "Category 6: Form, Social & Data Integrity (4 Tests)",
+          "tests": [
+            {
+              "name": "T3-DATA-01: Contact Form Submission x Social Direct Links Integration",
+              "tier": "3",
+              "status": "passed",
+              "duration": 1,
+              "error": null
+            },
+            {
+              "name": "T3-DATA-02: Developer Profile Data Integrity Across Pages (Name, Email, Resume)",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-DATA-03: Contact Form Dirty State x Curtain Page Transition Reset",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            },
+            {
+              "name": "T3-DATA-04: Mobile Menu x Embedded Theme Switcher Open Retention",
+              "tier": "3",
+              "status": "passed",
+              "duration": 0,
+              "error": null
+            }
+          ],
+          "suites": []
+        }
+      ]
+    },
+    {
+      "name": "Tier 4: Real-World Application Scenarios (6 Journeys)",
+      "tests": [
+        {
+          "name": "T4-JOURNEY-01: The Technical Recruiter Rapid Screening Journey (10 Steps)",
+          "tier": "4",
+          "status": "passed",
+          "duration": 7,
+          "error": null
+        },
+        {
+          "name": "T4-JOURNEY-02: The Senior Engineering Lead Technical Deep-Dive Journey (10 Steps)",
+          "tier": "4",
+          "status": "passed",
+          "duration": 4,
+          "error": null
+        },
+        {
+          "name": "T4-JOURNEY-03: The Mobile Smartphone Recruiter Inspection Journey (375px Viewport) (10 Steps)",
+          "tier": "4",
+          "status": "passed",
+          "duration": 2,
+          "error": null
+        },
+        {
+          "name": "T4-JOURNEY-04: Prospective Client / Collaborator Contact & Ingestion Journey (10 Steps)",
+          "tier": "4",
+          "status": "passed",
+          "duration": 3,
+          "error": null
+        },
+        {
+          "name": "T4-JOURNEY-05: Aesthetic & Dark/Light Mode Comprehensive Exploration Journey (10 Steps)",
+          "tier": "4",
+          "status": "passed",
+          "duration": 5,
+          "error": null
+        },
+        {
+          "name": "T4-JOURNEY-06: Deep-Link Direct Access & Browser History Traversal Journey (10 Steps)",
+          "tier": "4",
+          "status": "passed",
+          "duration": 2,
+          "error": null
+        }
+      ],
+      "suites": []
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e131f" />
+      <stop offset="100%" stop-color="#07090e" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Base background with rounded corners -->
+  <rect width="64" height="64" rx="14" fill="url(#bgGrad)" stroke="rgba(0, 240, 255, 0.3)" stroke-width="1.5" />
+  
+  <!-- Subtle inner geometric accent ring -->
+  <circle cx="32" cy="32" r="26" fill="none" stroke="rgba(251, 191, 36, 0.12)" stroke-width="1" />
+  
+  <!-- AM Monogram - Editorial Serif Typography & Modern Geometry -->
+  <g font-family="'Playfair Display', Georgia, serif" font-weight="700" font-size="28" letter-spacing="-1.5" text-anchor="middle" filter="url(#subtleGlow)">
+    <text x="32" y="41" fill="url(#accentGrad)">AM</text>
+  </g>
+  
+  <!-- Tiny cyan accent spark dot -->
+  <circle cx="51" cy="17" r="2" fill="#00f0ff" />
+</svg>
